@@ -2,7 +2,7 @@
 /*
   Template Name: Newsletter
  */
-get_header('internal');
+get_header();
 ?>
 <hr class="black-divider"/>
 

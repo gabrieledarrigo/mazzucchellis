@@ -2,7 +2,7 @@
 /*
   Template Name: Archives
  */
-get_header('internal');
+get_header();
 ?>
 
 <hr class="blue-divider"/>

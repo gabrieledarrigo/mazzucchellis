@@ -1,5 +1,5 @@
 <?php
-get_header('internal');
+get_header();
 
 $parent = get_parent_term_by_slug(get_queried_object()->slug, 'categoria-prodotto');
 

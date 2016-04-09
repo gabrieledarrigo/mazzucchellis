@@ -1,8 +1,8 @@
 <?php
 /*
-  Template Name: News
+  Template Name: Category
  */
-get_header('internal');
+get_header();
 ?>
 
 <hr class="green-divider"/>

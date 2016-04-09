@@ -2,7 +2,7 @@
 /*
   Template Name: Contatti
  */
-get_header('internal');
+get_header();
 ?>
 <hr class="black-divider"/>
 

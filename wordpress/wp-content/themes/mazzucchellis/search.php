@@ -1,6 +1,4 @@
-<?php
-get_header('internal');
-?>
+<?php get_header(); ?>
 
 <?php
 $searched_args = array(
