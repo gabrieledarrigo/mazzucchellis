@@ -136,9 +136,11 @@
             <span>
                 <?php
                 $menu = wp_get_nav_menu_object('menu-custom');
-                $menu_items = wp_get_nav_menu_items($menu->term_id);
 
-                echo $menu_items[0]->title;
+                if ($menu) {
+                    $menu_items = wp_get_nav_menu_items($menu->term_id);
+                    echo $menu_items[0]->title;
+                }
                 ?>
             </span>
 
