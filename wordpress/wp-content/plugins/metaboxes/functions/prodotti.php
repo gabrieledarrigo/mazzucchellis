@@ -5,19 +5,21 @@
 function check_codice_prodotto($codice, $post_id) {
     global $wpdb;
 
-    $sql = "SELECT post_id, meta_value"
-            . " FROM mazzucchelli_wp.wp_postmeta"
-            . " WHERE meta_key = 'codice_prodotto'"
-            . " AND post_id !=" . $post_id
-            . " AND meta_value != ''"
-            . " AND meta_value = " . $codice;
+    $sql = "SELECT post_id, meta_value
+              FROM mazzucchelli_wp.wp_postmeta
+              WHERE meta_key = 'codice_prodotto'
+              AND post_id != %d
+              AND meta_value != ''
+              AND meta_value = %s";
+
+    $query = $wpdb->prepare($sql, $post_id, $codice);
 
     $codice_podotto = $wpdb->get_results($sql);
 
     if (count($codice_podotto) > 0) {
-        $codice = 'Il codice è già presente nell\'archivio.';
+        $error = 'Il codice è già presente nell\'archivio.';
 
-        return $codice;
+        return $error;
     } else {
         return $codice;
     }
@@ -88,6 +90,4 @@ function create_shop_metabox() {
 }
 
 add_action('admin_init', 'create_shop_metabox');
-
 add_action('save_post', 'save_link_shop');
-?>
