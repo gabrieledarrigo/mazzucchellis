@@ -329,12 +329,3 @@ function get_parent_term_by_slug($slug, $taxonomy) {
 
     return $term;
 }
-
-/**
- * Registra un menu custom.
- */
-function register_menu() {
-  register_nav_menu('menu-custom', __( 'Menu Custom' ));
-}
-
-add_action( 'init', 'register_menu' );

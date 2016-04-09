@@ -1,0 +1,803 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: captcha\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-28 09:52+0300\n"
+"PO-Revision-Date: 2016-01-28 09:52+0300\n"
+"Last-Translator: BestWebSoft team <wp@bestwebsoft.com>\n"
+"Language-Team: Can Atasever <webmaster@canatasever.com>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: captcha.php:33 captcha.php:497
+msgid "Captcha Settings"
+msgstr "Captcha Ayarları"
+
+#: captcha.php:33
+msgid "Captcha"
+msgstr "Captcha"
+
+#: captcha.php:184
+#, fuzzy
+msgid "Please enter a CAPTCHA value."
+msgstr "Lütfen geçerli bir CAPTCHA değeri girin."
+
+#: captcha.php:185
+msgid "Please enter a valid CAPTCHA value."
+msgstr "Lütfen geçerli bir CAPTCHA değeri girin."
+
+#: captcha.php:186
+#, fuzzy
+msgid "Time limit is exhausted. Please enter CAPTCHA value again."
+msgstr "Lütfen geçerli bir CAPTCHA değeri girin."
+
+#: captcha.php:187
+msgid "You are in the white list"
+msgstr ""
+
+#: captcha.php:369
+msgid "Login form"
+msgstr "Giriş Formu"
+
+#: captcha.php:370 includes/pro_banners.php:48
+msgid "Registration form"
+msgstr "Kayıt Formu"
+
+#: captcha.php:371
+msgid "Reset Password form"
+msgstr "Parola sıfırlama formu"
+
+#: captcha.php:372 includes/pro_banners.php:49
+msgid "Comments form"
+msgstr "Yorum Formu"
+
+#: captcha.php:375
+#, fuzzy
+msgid "in Comments form for registered users"
+msgstr "Kayıtlı kullanıcılar için CAPTCHA&#39;yı gizle"
+
+#: captcha.php:379
+msgid "Plus (&#43;)"
+msgstr "Artı (&#43;)"
+
+#: captcha.php:379
+msgid "Plus"
+msgstr "Artı"
+
+#: captcha.php:380
+msgid "Minus (&minus;)"
+msgstr "Eksi (&minus;)"
+
+#: captcha.php:380
+msgid "Minus"
+msgstr "Eksi"
+
+#: captcha.php:381
+msgid "Multiplication (&times;)"
+msgstr "Çarpma (&times;)"
+
+#: captcha.php:381
+msgid "Multiply"
+msgstr "Çarp (&times;)"
+
+#: captcha.php:386
+msgid "Numbers"
+msgstr "Sayılar"
+
+#: captcha.php:387
+msgid "Words"
+msgstr "Kelimeler"
+
+#: captcha.php:388
+msgid "Images"
+msgstr ""
+
+#: captcha.php:435
+msgid ""
+"Please select one item in the block Arithmetic and Complexity for CAPTCHA"
+msgstr ""
+"Lütfen, Aritmetik Hareketler ve CAPTCHA İçin Zorluk bölümünden bir öge seçin."
+
+#: captcha.php:441
+#, fuzzy
+msgid "Please select one item in the block Enable image packages"
+msgstr ""
+"Lütfen, Aritmetik Hareketler ve CAPTCHA İçin Zorluk bölümünden bir öge seçin."
+
+#: captcha.php:470
+msgid "Settings saved."
+msgstr "Ayarlar kaydedildi."
+
+#: captcha.php:482
+msgid "All plugin settings were restored."
+msgstr ""
+
+#: captcha.php:499
+msgid "How to Use Step-by-step Instruction"
+msgstr ""
+
+#: captcha.php:502
+msgid "Basic"
+msgstr ""
+
+#: captcha.php:503
+msgid "Advanced"
+msgstr ""
+
+#: captcha.php:504
+msgid "Whitelist"
+msgstr ""
+
+#: captcha.php:505
+msgid "Go PRO"
+msgstr "Yükseltin"
+
+#: captcha.php:521 captcha.php:524 includes/pro_banners.php:36
+#: includes/pro_banners.php:44 includes/pro_banners.php:47
+#, fuzzy
+msgid "Enable CAPTCHA for"
+msgstr "CAPTCHA&#39;yı şunlar için aktifleştir:"
+
+#: captcha.php:525
+msgid "WordPress default"
+msgstr ""
+
+#: captcha.php:531
+msgid "This option is available only for main blog"
+msgstr ""
+
+#: captcha.php:546
+#, fuzzy
+msgid "Plugins"
+msgstr "Eklentiler sayfası"
+
+#: captcha.php:553 captcha.php:559
+msgid "You should"
+msgstr ""
+
+#: captcha.php:553 includes/whitelist.php:402
+msgid "activate"
+msgstr ""
+
+#: captcha.php:553
+msgid "for network"
+msgstr ""
+
+#: captcha.php:553 captcha.php:561
+msgid "to use this functionality"
+msgstr ""
+
+#: captcha.php:560
+msgid "download"
+msgstr ""
+
+#: captcha.php:573
+msgid "If you would like to add Captcha to a custom form, please see"
+msgstr ""
+"Eğer eklentiyi, özelleştirilmiş bir form için kişiselleştirmek isterseniz "
+"şuraya göz atın "
+
+#: captcha.php:581
+#, fuzzy
+msgid "Hide CAPTCHA"
+msgstr "CAPTCHA&#39;yı aktifleştir:"
+
+#: captcha.php:588
+msgid "Title"
+msgstr ""
+
+#: captcha.php:592
+msgid "Required symbol"
+msgstr "Gerekli sembol"
+
+#: captcha.php:598
+msgid "Show \"Reload\" button"
+msgstr ""
+
+#: captcha.php:604
+#, fuzzy
+msgid "Arithmetic actions"
+msgstr "CAPTCHA için Aritmetik Hareketler"
+
+#: captcha.php:607
+msgid "Arithmetic actions for CAPTCHA"
+msgstr "CAPTCHA için Aritmetik Hareketler"
+
+#: captcha.php:619 captcha.php:621
+msgid "Complexity"
+msgstr ""
+
+#: captcha.php:637
+msgid "Enable image packages"
+msgstr ""
+
+#: captcha.php:647
+msgid "Enlarge images on mouseover"
+msgstr ""
+
+#: captcha.php:657
+msgid "Enable time limit"
+msgstr ""
+
+#: captcha.php:663
+msgid "Set time limit"
+msgstr ""
+
+#: captcha.php:666
+msgid "seconds"
+msgstr ""
+
+#: captcha.php:672
+msgid "Notification messages"
+msgstr ""
+
+#: captcha.php:674 captcha.php:967 captcha.php:973 captcha.php:1174
+#: captcha.php:1190
+msgid "Error"
+msgstr ""
+
+#: captcha.php:675
+#, fuzzy
+msgid "If CAPTCHA field is empty"
+msgstr "Girdiğiniz CAPTCHA kodu yanlış."
+
+#: captcha.php:676
+#, fuzzy
+msgid "If CAPTCHA is incorrect"
+msgstr "Girdiğiniz CAPTCHA kodu yanlış."
+
+#: captcha.php:677
+msgid "If time limit is exhausted"
+msgstr ""
+
+#: captcha.php:678
+msgid "Info"
+msgstr ""
+
+#: captcha.php:679
+msgid ""
+"If the user IP is added to the whitelist (this message will be displayed "
+"instead of CAPTCHA)."
+msgstr ""
+
+#: captcha.php:686
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: captcha.php:824 captcha.php:831 captcha.php:846 captcha.php:848
+#: captcha.php:856 captcha.php:1060 captcha.php:1068 captcha.php:1084
+#: captcha.php:1088 captcha.php:1097 captcha.php:1121 captcha.php:1131
+#: captcha.php:1149 captcha.php:1152 captcha.php:1160
+msgid "ERROR"
+msgstr "HATA"
+
+#: captcha.php:967 captcha.php:973 captcha.php:1174 captcha.php:1190
+#, fuzzy
+msgid "Click the BACK button on your browser, and try again."
+msgstr ""
+"HATA: Yanlış CAPTCHA değeri girdiniz. Tarayıcınızın GERİ butonuna basın ve "
+"tekrar deneyin."
+
+#: captcha.php:1405
+msgid "zero"
+msgstr "sıfır"
+
+#: captcha.php:1406 captcha.php:1791
+msgid "one"
+msgstr "bir"
+
+#: captcha.php:1407
+msgid "two"
+msgstr "iki"
+
+#: captcha.php:1408
+msgid "three"
+msgstr "üç"
+
+#: captcha.php:1409
+msgid "four"
+msgstr "dört"
+
+#: captcha.php:1410
+msgid "five"
+msgstr "beş"
+
+#: captcha.php:1411 captcha.php:1791
+msgid "six"
+msgstr "altı"
+
+#: captcha.php:1412 captcha.php:1779 captcha.php:1785
+msgid "seven"
+msgstr "yedi"
+
+#: captcha.php:1413 captcha.php:1782
+msgid "eight"
+msgstr "sekiz"
+
+#: captcha.php:1414
+msgid "nine"
+msgstr "dokuz"
+
+#: captcha.php:1417
+msgid "eleven"
+msgstr "onbir"
+
+#: captcha.php:1418
+msgid "twelve"
+msgstr "oniki"
+
+#: captcha.php:1419
+msgid "thirteen"
+msgstr "onüç"
+
+#: captcha.php:1420
+msgid "fourteen"
+msgstr "ondört"
+
+#: captcha.php:1421
+msgid "fifteen"
+msgstr "onbeş"
+
+#: captcha.php:1422
+msgid "sixteen"
+msgstr "onaltı"
+
+#: captcha.php:1423
+msgid "seventeen"
+msgstr "onyedi"
+
+#: captcha.php:1424
+msgid "eighteen"
+msgstr "onsekiz"
+
+#: captcha.php:1425
+msgid "nineteen"
+msgstr "ondokuz"
+
+#: captcha.php:1428
+msgid "ten"
+msgstr "on"
+
+#: captcha.php:1429
+msgid "twenty"
+msgstr "yirmi"
+
+#: captcha.php:1430
+msgid "thirty"
+msgstr "otuz"
+
+#: captcha.php:1431
+msgid "forty"
+msgstr "kırk"
+
+#: captcha.php:1432
+msgid "fifty"
+msgstr "elli"
+
+#: captcha.php:1433
+msgid "sixty"
+msgstr "altmış"
+
+#: captcha.php:1434
+msgid "seventy"
+msgstr "yetmiş"
+
+#: captcha.php:1435
+msgid "eighty"
+msgstr "seksen"
+
+#: captcha.php:1436
+msgid "ninety"
+msgstr "doksan"
+
+#: captcha.php:1445
+msgid "and"
+msgstr "ve"
+
+#: captcha.php:1511
+msgid "Encryption password is not set"
+msgstr "Şifreleme parolası ayarlanmadı"
+
+#: captcha.php:1531
+msgid "Decryption password is not set"
+msgstr "Şifre çözme parolası ayarlanmadı"
+
+#: captcha.php:1878 captcha.php:1891
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: captcha.php:1892
+msgid "FAQ"
+msgstr "SSS"
+
+#: captcha.php:1893
+msgid "Support"
+msgstr "Destek"
+
+#: captcha.php:1923
+#, php-format
+msgid "Try New %s: with Pictures Now!"
+msgstr ""
+
+#: includes/whitelist.php:70
+msgid "For IP addresses from the whitelist CAPTCHA will not be displayed"
+msgstr ""
+
+#: includes/whitelist.php:82
+#, php-format
+msgid ""
+"With this option, CAPTCHA will not be displayed for IP-addresses from the "
+"whitelist of %s"
+msgstr ""
+
+#: includes/whitelist.php:93 includes/whitelist.php:129
+msgid "Add IP to whitelist"
+msgstr ""
+
+#: includes/whitelist.php:96
+msgid "Load IP to whitelist"
+msgstr ""
+
+#: includes/whitelist.php:99
+#, php-format
+msgid ""
+"By click on this button, all IP-addresses from the whitelist of %s will be "
+"loaded to the whitelist of %s"
+msgstr ""
+
+#: includes/whitelist.php:108
+#, fuzzy
+msgid "Save changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: includes/whitelist.php:125
+msgid "My IP"
+msgstr ""
+
+#: includes/whitelist.php:133 includes/pro_banners.php:91
+msgid "Allowed formats:"
+msgstr ""
+
+#: includes/whitelist.php:134
+msgid "Allowed diapason:"
+msgstr ""
+
+#: includes/whitelist.php:140
+msgid "Search IP"
+msgstr ""
+
+#: includes/whitelist.php:172
+msgid "Nothing found"
+msgstr ""
+
+#: includes/whitelist.php:172
+msgid "No IP in whitelist"
+msgstr ""
+
+#: includes/whitelist.php:179
+msgid "IP address"
+msgstr ""
+
+#: includes/whitelist.php:180
+msgid "Date added"
+msgstr ""
+
+#: includes/whitelist.php:229 includes/whitelist.php:238
+msgid "Remove from whitelist"
+msgstr ""
+
+#: includes/whitelist.php:310
+msgid "IP added to the whitelist successfully"
+msgstr ""
+
+#: includes/whitelist.php:312 includes/whitelist.php:334
+#: includes/whitelist.php:346
+msgid "Some errors occured"
+msgstr ""
+
+#: includes/whitelist.php:314
+msgid "IP is already in the whitelist"
+msgstr ""
+
+#: includes/whitelist.php:317
+msgid "Invalid IP. See allowed formats"
+msgstr ""
+
+#: includes/whitelist.php:340
+msgid "One IP was deleted successfully"
+msgstr ""
+
+#: includes/whitelist.php:349
+msgid "You have not entered any value"
+msgstr ""
+
+#: includes/whitelist.php:352
+msgid "You have not entered any value in to the search form"
+msgstr ""
+
+#: includes/whitelist.php:354
+msgid "Search results for"
+msgstr ""
+
+#: includes/whitelist.php:368
+msgid "IP-address(es) successfully copied to the whitelist"
+msgstr ""
+
+#: includes/whitelist.php:393
+msgid "use"
+msgstr ""
+
+#: includes/whitelist.php:393
+msgid "whitelist of"
+msgstr ""
+
+#: includes/whitelist.php:401 includes/whitelist.php:409
+#, php-format
+msgid "use whitelist of %s"
+msgstr ""
+
+#: includes/whitelist.php:402
+#, php-format
+msgid "you should %s to use this functionality"
+msgstr ""
+
+#: includes/whitelist.php:410
+#, php-format
+msgid "you should instal %s to use this functionality"
+msgstr ""
+
+#: includes/pro_banners.php:17
+msgid "This options is available in Pro version of plugin"
+msgstr ""
+
+#: includes/pro_banners.php:19
+msgid "Close"
+msgstr ""
+
+#: includes/pro_banners.php:24
+#, fuzzy
+msgid "Unlock premium options by upgrading to Pro version"
+msgstr "Aboneliğinizi yükseltin ve premium özelliklere erişin."
+
+#: includes/pro_banners.php:25
+msgid "Learn More"
+msgstr "Detaylı Bilgi"
+
+#: includes/pro_banners.php:50
+msgid "\"Create a Group\" form"
+msgstr "\"Grup Oluştur\" formu"
+
+#: includes/pro_banners.php:56
+#, fuzzy
+msgid "Enable CAPTCHA"
+msgstr "CAPTCHA&#39;yı aktifleştir:"
+
+#: includes/pro_banners.php:64
+msgid "If you upgrade to Pro version all your settings will be saved."
+msgstr "Eğer hesabınızı yükseltirseniz tüm değişiklikleriniz kaydedilecek."
+
+#: includes/pro_banners.php:75
+msgid "Use several packages at the same time"
+msgstr ""
+
+#: includes/pro_banners.php:78
+msgid ""
+"If this option is enabled, CAPTCHA will be use pictures from different "
+"packages at the same time"
+msgstr ""
+
+#: includes/pro_banners.php:89
+msgid "Reason"
+msgstr ""
+
+#: includes/pro_banners.php:92
+msgid "Allowed separators for IPs: a comma"
+msgstr ""
+
+#: includes/pro_banners.php:92 includes/pro_banners.php:93
+msgid "semicolon"
+msgstr ""
+
+#: includes/pro_banners.php:92
+msgid "ordinary space, tab, new line or carriage return"
+msgstr ""
+
+#: includes/pro_banners.php:93
+msgid "Allowed separators for reasons: a comma"
+msgstr ""
+
+#: includes/pro_banners.php:93
+msgid "tab, new line or carriage return"
+msgstr ""
+
+#: includes/package_loader.php:27 includes/package_loader.php:139
+msgid ""
+"Can not load images in to the \"uploads\" folder. Please, check your "
+"permissions."
+msgstr ""
+
+#: includes/package_loader.php:39
+msgid "File packages.txt not found. Package not saved."
+msgstr ""
+
+#: includes/package_loader.php:45
+msgid "Can not read data from packages.txt. Packages not saved."
+msgstr ""
+
+#: includes/package_loader.php:167
+msgid "Package successfully loaded."
+msgstr ""
+
+#~ msgid "Notice:"
+#~ msgstr "Uyarı:"
+
+#~ msgid ""
+#~ "The plugin's settings have been changed. In order to save them please "
+#~ "don't forget to click the 'Save Changes' button."
+#~ msgstr ""
+#~ "Eklentinin ayarları değişti, değişiklikleri kaydetmek için &#39;"
+#~ "Değişiklikleri Kaydet&#39; butonuna basmayı unutmayın."
+
+#~ msgid "Title for CAPTCHA in the form"
+#~ msgstr "Formdaki CAPTCHA Başlığı"
+
+#~ msgid "CAPTCHA complexity level"
+#~ msgstr "CAPTCHA Karışıklık Seviyesi"
+
+#~ msgid "Go"
+#~ msgstr "Git"
+
+#, fuzzy
+#~ msgid "Contact Form"
+#~ msgstr "İletişim Formu"
+
+#~ msgid "Activate contact form"
+#~ msgstr "İletişim formunu etkinleştir"
+
+#~ msgid "Download contact form"
+#~ msgstr "İletişim formunu indir"
+
+#~ msgid "Register form"
+#~ msgstr "Kayıt Formu"
+
+#~ msgid "Lost password form"
+#~ msgstr "Kayıp Parola Formu"
+
+#~ msgid "requires"
+#~ msgstr "eklentisi"
+
+#~ msgid ""
+#~ "or higher, that is why it has been deactivated! Please upgrade WordPress "
+#~ "and try again."
+#~ msgstr ""
+#~ "ya da daha üst versiyon gerektirir, eklenti bu yüzden etkisizleştirildi! "
+#~ "Lütfen Wordpress&#39;i güncelleyin ve tekrar deneyin."
+
+#~ msgid "Back to the WordPress"
+#~ msgstr "Wordpress&#39;e geri dön"
+
+#~ msgid "Wrong license key"
+#~ msgstr "Hatalı lisans anahtarı"
+
+#~ msgid ""
+#~ "Something went wrong. Try again later. If the error will appear again, "
+#~ "please, contact us <a href=http://support.bestwebsoft.com>BestWebSoft</"
+#~ "a>. We are sorry for inconvenience."
+#~ msgstr ""
+#~ "Bir şeyler ters gitti, daha sonra tekrar deneyin. Eğer hata mesajı tekrar "
+#~ "görünürse, lütfen <a href=http://support.bestwebsoft.com>buraya</a> "
+#~ "tıklayın ve bizimle iletişime geçin. Yaşadığınız rahatsızlık için üzgünüz."
+
+#~ msgid "This license key is bind to another site"
+#~ msgstr "Bu lisans anahtarı başka bir siteyle ilişkilendirilmiş."
+
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries per day. "
+#~ "Please, upload the plugin manually."
+#~ msgstr ""
+#~ "Üzgünüz, günlük deneme limitini aştınız. Lütfen eklentiyi manuel olarak "
+#~ "yükleyin."
+
+#~ msgid ""
+#~ "Failed to download the zip archive. Please, upload the plugin manually"
+#~ msgstr "ZIP arşivi indirilemedi. Lütfen eklentiyi manuel olarak yükleyin."
+
+#~ msgid "Failed to open the zip archive. Please, upload the plugin manually"
+#~ msgstr "ZIP arşivi açılamadı. Lütfen eklentiyi manuel olarak yükleyin."
+
+#~ msgid ""
+#~ "Your server does not support either ZipArchive or Phar. Please, upload "
+#~ "the plugin manually"
+#~ msgstr ""
+#~ "Sunucunuz ZipArchive ya da Phar desteklemiyor. Lütfen eklentiyi manuel "
+#~ "olarak yükleyin."
+
+#, fuzzy
+#~ msgid "UploadDir is not writable. Please, upload the plugin manually"
+#~ msgstr "ZIP arşivi açılamadı. Lütfen eklentiyi manuel olarak yükleyin."
+
+#~ msgid ""
+#~ "Something went wrong. Try again later or upload the plugin manually. We "
+#~ "are sorry for inconvenience."
+#~ msgstr ""
+#~ "Bir şeyler ters gitti. Daha sonra tekrar deneyin ya da eklentiyi manuel "
+#~ "olarak yükleyin. Yaşadığınız rahatsızlık için üzgünüz."
+
+#~ msgid "Please, enter Your license key"
+#~ msgstr "Lütfen lisans anahtarınızı girin"
+
+#~ msgid "powered by"
+#~ msgstr "tarafından:"
+
+#~ msgid "Subscriber"
+#~ msgstr "Abone"
+
+#~ msgid "If you enjoy our plugin, please give it 5 stars on WordPress"
+#~ msgstr "Eklentimizi beğenirseniz lütfen Wordpress&#39;te 5 yıldız verin"
+
+#~ msgid "Rate the plugin"
+#~ msgstr "Eklentiyi değerlendirin"
+
+#~ msgid "If there is something wrong about it, please contact us"
+#~ msgstr "Eğer hatalı bir durum görürseniz lütfen bizimle iletişime geçin."
+
+#~ msgid ""
+#~ "Congratulations! The PRO version of the plugin is successfully download "
+#~ "and activated."
+#~ msgstr ""
+#~ "Tebrikler! Eklentinin PRO versiyonu başarıyla indirildi ve yüklendi."
+
+#~ msgid "Please, go to"
+#~ msgstr "Lütfen şuraya gidin:"
+
+#~ msgid "the setting page"
+#~ msgstr "ayarlar sayfası"
+
+#~ msgid "You will be redirected automatically in 5 seconds."
+#~ msgstr "5 saniye içinde otomatik olarak yönlendirileceksiniz."
+
+#~ msgid "You can download and activate"
+#~ msgstr "Eklentinin"
+
+#~ msgid "version of this plugin by entering Your license key."
+#~ msgstr ""
+#~ "versiyonunu lisans anahtarınızı girerek yükleyebilir ve "
+#~ "aktifleştirebilirsiniz."
+
+#~ msgid ""
+#~ "You can find your license key on your personal page Client area, by "
+#~ "clicking on the link"
+#~ msgstr ""
+#~ "Lisans anahtarınızı kişisel müşteri sayfanızda bulabilirsiniz, tıklayın"
+
+#~ msgid ""
+#~ "(your username is the email you specify when purchasing the product)."
+#~ msgstr ""
+#~ "(kullanıcı adınız, ürün için ödeme yaparken belirttiğiniz e-posta "
+#~ "adresinizdir)"
+
+#~ msgid "Go!"
+#~ msgstr "Git!"
+
+#, fuzzy
+#~ msgid "ERROR:"
+#~ msgstr "HATA"
+
+#~ msgid ""
+#~ "It's time to upgrade your <strong>Captcha plugin</strong> to <strong>PRO</"
+#~ "strong> version"
+#~ msgstr ""
+#~ "<strong>Captcha eklentisini</strong> <strong>PRO</strong> versiyonuna "
+#~ "yükseltmenizin zamanı geldi!"
+
+#~ msgid "Extend standard plugin functionality with new great options"
+#~ msgstr ""
+#~ "Eklentinin standart özelliklerini yeni ve harika özelliklerle "
+#~ "zenginleştirin."

@@ -1,0 +1,677 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: captcha\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-28 09:50+0300\n"
+"PO-Revision-Date: 2016-01-28 09:50+0300\n"
+"Last-Translator: BestWebSoft team <wp@bestwebsoft.com>\n"
+"Language-Team: Danish <kde-i18n-doc@kde.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: captcha.php:33 captcha.php:497
+#, fuzzy
+msgid "Captcha Settings"
+msgstr "Indstillinger for Captcha"
+
+#: captcha.php:33
+msgid "Captcha"
+msgstr "Captcha"
+
+#: captcha.php:184
+#, fuzzy
+msgid "Please enter a CAPTCHA value."
+msgstr "Udfyld venligst regnestykket."
+
+#: captcha.php:185
+#, fuzzy
+msgid "Please enter a valid CAPTCHA value."
+msgstr "Udfyld venligst regnestykket."
+
+#: captcha.php:186
+#, fuzzy
+msgid "Time limit is exhausted. Please enter CAPTCHA value again."
+msgstr "Udfyld venligst regnestykket."
+
+#: captcha.php:187
+msgid "You are in the white list"
+msgstr ""
+
+#: captcha.php:369
+msgid "Login form"
+msgstr "Loginformular"
+
+#: captcha.php:370 includes/pro_banners.php:48
+#, fuzzy
+msgid "Registration form"
+msgstr "Registreringsformular"
+
+#: captcha.php:371
+#, fuzzy
+msgid "Reset Password form"
+msgstr "Formular til mistet adgangskode"
+
+#: captcha.php:372 includes/pro_banners.php:49
+msgid "Comments form"
+msgstr "Kommentarformular"
+
+#: captcha.php:375
+#, fuzzy
+msgid "in Comments form for registered users"
+msgstr "Skjul captcha for registrerede brugere"
+
+#: captcha.php:379
+msgid "Plus (&#43;)"
+msgstr "Plus (&#43;)"
+
+#: captcha.php:379
+msgid "Plus"
+msgstr "Plus (&#43;)"
+
+#: captcha.php:380
+msgid "Minus (&minus;)"
+msgstr "Minus (&minus;)"
+
+#: captcha.php:380
+msgid "Minus"
+msgstr "Minus (&minus;)"
+
+#: captcha.php:381
+#, fuzzy
+msgid "Multiplication (&times;)"
+msgstr "Gange (&times;)"
+
+#: captcha.php:381
+#, fuzzy
+msgid "Multiply"
+msgstr "Gange (&times;)"
+
+#: captcha.php:386
+msgid "Numbers"
+msgstr "Cifre"
+
+#: captcha.php:387
+msgid "Words"
+msgstr "Talord"
+
+#: captcha.php:388
+msgid "Images"
+msgstr ""
+
+#: captcha.php:435
+#, fuzzy
+msgid ""
+"Please select one item in the block Arithmetic and Complexity for CAPTCHA"
+msgstr ""
+"Vælg venligst mindst én af mulighederne for både regneopgavetyper og "
+"sværhedsgrad."
+
+#: captcha.php:441
+#, fuzzy
+msgid "Please select one item in the block Enable image packages"
+msgstr ""
+"Vælg venligst mindst én af mulighederne for både regneopgavetyper og "
+"sværhedsgrad."
+
+#: captcha.php:470
+#, fuzzy
+msgid "Settings saved."
+msgstr "Indstillingerne er gemt."
+
+#: captcha.php:482
+msgid "All plugin settings were restored."
+msgstr ""
+
+#: captcha.php:499
+msgid "How to Use Step-by-step Instruction"
+msgstr ""
+
+#: captcha.php:502
+msgid "Basic"
+msgstr ""
+
+#: captcha.php:503
+msgid "Advanced"
+msgstr ""
+
+#: captcha.php:504
+msgid "Whitelist"
+msgstr ""
+
+#: captcha.php:505
+msgid "Go PRO"
+msgstr ""
+
+#: captcha.php:521 captcha.php:524 includes/pro_banners.php:36
+#: includes/pro_banners.php:44 includes/pro_banners.php:47
+#, fuzzy
+msgid "Enable CAPTCHA for"
+msgstr "Anvend captcha for:"
+
+#: captcha.php:525
+msgid "WordPress default"
+msgstr ""
+
+#: captcha.php:531
+msgid "This option is available only for main blog"
+msgstr ""
+
+#: captcha.php:546
+#, fuzzy
+msgid "Plugins"
+msgstr "BWS Plugins"
+
+#: captcha.php:553 captcha.php:559
+msgid "You should"
+msgstr ""
+
+#: captcha.php:553 includes/whitelist.php:402
+msgid "activate"
+msgstr ""
+
+#: captcha.php:553
+msgid "for network"
+msgstr ""
+
+#: captcha.php:553 captcha.php:561
+msgid "to use this functionality"
+msgstr ""
+
+#: captcha.php:560
+msgid "download"
+msgstr ""
+
+#: captcha.php:573
+#, fuzzy
+msgid "If you would like to add Captcha to a custom form, please see"
+msgstr ""
+"Hvis du kunne tænke dig at tilpasse dette plugin til en speciallavet "
+"formular, kan du kontakte os på <a href=\"Mailto:plugin@bestwebsoft.com"
+"\">plugin@bestwebsoft.com</a> eller bruge kontaktformularen på vores website"
+
+#: captcha.php:581
+#, fuzzy
+msgid "Hide CAPTCHA"
+msgstr "Anvend captcha for:"
+
+#: captcha.php:588
+msgid "Title"
+msgstr ""
+
+#: captcha.php:592
+msgid "Required symbol"
+msgstr ""
+
+#: captcha.php:598
+msgid "Show \"Reload\" button"
+msgstr ""
+
+#: captcha.php:604
+#, fuzzy
+msgid "Arithmetic actions"
+msgstr "Regneopgavetyper i captcha"
+
+#: captcha.php:607
+msgid "Arithmetic actions for CAPTCHA"
+msgstr "Regneopgavetyper i captcha"
+
+#: captcha.php:619 captcha.php:621
+msgid "Complexity"
+msgstr ""
+
+#: captcha.php:637
+msgid "Enable image packages"
+msgstr ""
+
+#: captcha.php:647
+msgid "Enlarge images on mouseover"
+msgstr ""
+
+#: captcha.php:657
+msgid "Enable time limit"
+msgstr ""
+
+#: captcha.php:663
+msgid "Set time limit"
+msgstr ""
+
+#: captcha.php:666
+msgid "seconds"
+msgstr ""
+
+#: captcha.php:672
+msgid "Notification messages"
+msgstr ""
+
+#: captcha.php:674 captcha.php:967 captcha.php:973 captcha.php:1174
+#: captcha.php:1190
+msgid "Error"
+msgstr ""
+
+#: captcha.php:675
+#, fuzzy
+msgid "If CAPTCHA field is empty"
+msgstr "Regnestykket er forkert."
+
+#: captcha.php:676
+#, fuzzy
+msgid "If CAPTCHA is incorrect"
+msgstr "Regnestykket er forkert."
+
+#: captcha.php:677
+msgid "If time limit is exhausted"
+msgstr ""
+
+#: captcha.php:678
+msgid "Info"
+msgstr ""
+
+#: captcha.php:679
+msgid ""
+"If the user IP is added to the whitelist (this message will be displayed "
+"instead of CAPTCHA)."
+msgstr ""
+
+#: captcha.php:686
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: captcha.php:824 captcha.php:831 captcha.php:846 captcha.php:848
+#: captcha.php:856 captcha.php:1060 captcha.php:1068 captcha.php:1084
+#: captcha.php:1088 captcha.php:1097 captcha.php:1121 captcha.php:1131
+#: captcha.php:1149 captcha.php:1152 captcha.php:1160
+msgid "ERROR"
+msgstr "FEJL"
+
+#: captcha.php:967 captcha.php:973 captcha.php:1174 captcha.php:1190
+#, fuzzy
+msgid "Click the BACK button on your browser, and try again."
+msgstr ""
+"Fejl: Du har angivet et forkert svar på regnestykket. Gå venligst tilbage og "
+"prøv igen."
+
+#: captcha.php:1405
+msgid "zero"
+msgstr "nul"
+
+#: captcha.php:1406 captcha.php:1791
+msgid "one"
+msgstr "en"
+
+#: captcha.php:1407
+msgid "two"
+msgstr "to"
+
+#: captcha.php:1408
+msgid "three"
+msgstr "tre"
+
+#: captcha.php:1409
+msgid "four"
+msgstr "fire"
+
+#: captcha.php:1410
+msgid "five"
+msgstr "fem"
+
+#: captcha.php:1411 captcha.php:1791
+msgid "six"
+msgstr "seks"
+
+#: captcha.php:1412 captcha.php:1779 captcha.php:1785
+msgid "seven"
+msgstr "syv"
+
+#: captcha.php:1413 captcha.php:1782
+msgid "eight"
+msgstr "otte"
+
+#: captcha.php:1414
+msgid "nine"
+msgstr "ni"
+
+#: captcha.php:1417
+msgid "eleven"
+msgstr "elve"
+
+#: captcha.php:1418
+msgid "twelve"
+msgstr "tolv"
+
+#: captcha.php:1419
+msgid "thirteen"
+msgstr "tretten"
+
+#: captcha.php:1420
+msgid "fourteen"
+msgstr "fjorten"
+
+#: captcha.php:1421
+msgid "fifteen"
+msgstr "femten"
+
+#: captcha.php:1422
+msgid "sixteen"
+msgstr "seksten"
+
+#: captcha.php:1423
+msgid "seventeen"
+msgstr "sytten"
+
+#: captcha.php:1424
+msgid "eighteen"
+msgstr "atten"
+
+#: captcha.php:1425
+msgid "nineteen"
+msgstr "nitten"
+
+#: captcha.php:1428
+msgid "ten"
+msgstr "ti"
+
+#: captcha.php:1429
+msgid "twenty"
+msgstr "tyve"
+
+#: captcha.php:1430
+msgid "thirty"
+msgstr "tredive"
+
+#: captcha.php:1431
+msgid "forty"
+msgstr "fyrre"
+
+#: captcha.php:1432
+msgid "fifty"
+msgstr "halvtreds"
+
+#: captcha.php:1433
+msgid "sixty"
+msgstr "tres"
+
+#: captcha.php:1434
+msgid "seventy"
+msgstr "halvfjerds"
+
+#: captcha.php:1435
+msgid "eighty"
+msgstr "firs"
+
+#: captcha.php:1436
+msgid "ninety"
+msgstr "halvfems"
+
+#: captcha.php:1445
+msgid "and"
+msgstr "und"
+
+#: captcha.php:1511
+#, fuzzy
+msgid "Encryption password is not set"
+msgstr "Kodeordet for dekodning er ikke angivet"
+
+#: captcha.php:1531
+#, fuzzy
+msgid "Decryption password is not set"
+msgstr "Kodeordet for dekodning er ikke angivet"
+
+#: captcha.php:1878 captcha.php:1891
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: captcha.php:1892
+msgid "FAQ"
+msgstr "Ofte Stillede Spørgsmål"
+
+#: captcha.php:1893
+msgid "Support"
+msgstr "Brugerhjælp"
+
+#: captcha.php:1923
+#, php-format
+msgid "Try New %s: with Pictures Now!"
+msgstr ""
+
+#: includes/whitelist.php:70
+msgid "For IP addresses from the whitelist CAPTCHA will not be displayed"
+msgstr ""
+
+#: includes/whitelist.php:82
+#, php-format
+msgid ""
+"With this option, CAPTCHA will not be displayed for IP-addresses from the "
+"whitelist of %s"
+msgstr ""
+
+#: includes/whitelist.php:93 includes/whitelist.php:129
+msgid "Add IP to whitelist"
+msgstr ""
+
+#: includes/whitelist.php:96
+msgid "Load IP to whitelist"
+msgstr ""
+
+#: includes/whitelist.php:99
+#, php-format
+msgid ""
+"By click on this button, all IP-addresses from the whitelist of %s will be "
+"loaded to the whitelist of %s"
+msgstr ""
+
+#: includes/whitelist.php:108
+#, fuzzy
+msgid "Save changes"
+msgstr "Gem ændringer"
+
+#: includes/whitelist.php:125
+msgid "My IP"
+msgstr ""
+
+#: includes/whitelist.php:133 includes/pro_banners.php:91
+msgid "Allowed formats:"
+msgstr ""
+
+#: includes/whitelist.php:134
+msgid "Allowed diapason:"
+msgstr ""
+
+#: includes/whitelist.php:140
+msgid "Search IP"
+msgstr ""
+
+#: includes/whitelist.php:172
+msgid "Nothing found"
+msgstr ""
+
+#: includes/whitelist.php:172
+msgid "No IP in whitelist"
+msgstr ""
+
+#: includes/whitelist.php:179
+msgid "IP address"
+msgstr ""
+
+#: includes/whitelist.php:180
+msgid "Date added"
+msgstr ""
+
+#: includes/whitelist.php:229 includes/whitelist.php:238
+msgid "Remove from whitelist"
+msgstr ""
+
+#: includes/whitelist.php:310
+msgid "IP added to the whitelist successfully"
+msgstr ""
+
+#: includes/whitelist.php:312 includes/whitelist.php:334
+#: includes/whitelist.php:346
+msgid "Some errors occured"
+msgstr ""
+
+#: includes/whitelist.php:314
+msgid "IP is already in the whitelist"
+msgstr ""
+
+#: includes/whitelist.php:317
+msgid "Invalid IP. See allowed formats"
+msgstr ""
+
+#: includes/whitelist.php:340
+msgid "One IP was deleted successfully"
+msgstr ""
+
+#: includes/whitelist.php:349
+msgid "You have not entered any value"
+msgstr ""
+
+#: includes/whitelist.php:352
+msgid "You have not entered any value in to the search form"
+msgstr ""
+
+#: includes/whitelist.php:354
+msgid "Search results for"
+msgstr ""
+
+#: includes/whitelist.php:368
+msgid "IP-address(es) successfully copied to the whitelist"
+msgstr ""
+
+#: includes/whitelist.php:393
+msgid "use"
+msgstr ""
+
+#: includes/whitelist.php:393
+msgid "whitelist of"
+msgstr ""
+
+#: includes/whitelist.php:401 includes/whitelist.php:409
+#, php-format
+msgid "use whitelist of %s"
+msgstr ""
+
+#: includes/whitelist.php:402
+#, php-format
+msgid "you should %s to use this functionality"
+msgstr ""
+
+#: includes/whitelist.php:410
+#, php-format
+msgid "you should instal %s to use this functionality"
+msgstr ""
+
+#: includes/pro_banners.php:17
+msgid "This options is available in Pro version of plugin"
+msgstr ""
+
+#: includes/pro_banners.php:19
+msgid "Close"
+msgstr ""
+
+#: includes/pro_banners.php:24
+msgid "Unlock premium options by upgrading to Pro version"
+msgstr ""
+
+#: includes/pro_banners.php:25
+msgid "Learn More"
+msgstr ""
+
+#: includes/pro_banners.php:50
+msgid "\"Create a Group\" form"
+msgstr ""
+
+#: includes/pro_banners.php:56
+#, fuzzy
+msgid "Enable CAPTCHA"
+msgstr "Anvend captcha for:"
+
+#: includes/pro_banners.php:64
+msgid "If you upgrade to Pro version all your settings will be saved."
+msgstr ""
+
+#: includes/pro_banners.php:75
+msgid "Use several packages at the same time"
+msgstr ""
+
+#: includes/pro_banners.php:78
+msgid ""
+"If this option is enabled, CAPTCHA will be use pictures from different "
+"packages at the same time"
+msgstr ""
+
+#: includes/pro_banners.php:89
+msgid "Reason"
+msgstr ""
+
+#: includes/pro_banners.php:92
+msgid "Allowed separators for IPs: a comma"
+msgstr ""
+
+#: includes/pro_banners.php:92 includes/pro_banners.php:93
+msgid "semicolon"
+msgstr ""
+
+#: includes/pro_banners.php:92
+msgid "ordinary space, tab, new line or carriage return"
+msgstr ""
+
+#: includes/pro_banners.php:93
+msgid "Allowed separators for reasons: a comma"
+msgstr ""
+
+#: includes/pro_banners.php:93
+msgid "tab, new line or carriage return"
+msgstr ""
+
+#: includes/package_loader.php:27 includes/package_loader.php:139
+msgid ""
+"Can not load images in to the \"uploads\" folder. Please, check your "
+"permissions."
+msgstr ""
+
+#: includes/package_loader.php:39
+msgid "File packages.txt not found. Package not saved."
+msgstr ""
+
+#: includes/package_loader.php:45
+msgid "Can not read data from packages.txt. Packages not saved."
+msgstr ""
+
+#: includes/package_loader.php:167
+msgid "Package successfully loaded."
+msgstr ""
+
+#, fuzzy
+#~ msgid "Title for CAPTCHA in the form"
+#~ msgstr "Tekst for captcha i formular"
+
+#, fuzzy
+#~ msgid "Contact Form"
+#~ msgstr "Kontaktformular"
+
+#~ msgid "Activate contact form"
+#~ msgstr "Aktivér kontaktformular"
+
+#~ msgid "Download contact form"
+#~ msgstr "Hent kontaktformular"
+
+#~ msgid "Register form"
+#~ msgstr "Registreringsformular"
+
+#~ msgid "Lost password form"
+#~ msgstr "Formular til mistet adgangskode"
+
+#, fuzzy
+#~ msgid "Rate the plugin"
+#~ msgstr "Anbefalede plugins"
+
+#, fuzzy
+#~ msgid "ERROR:"
+#~ msgstr "FEJL"

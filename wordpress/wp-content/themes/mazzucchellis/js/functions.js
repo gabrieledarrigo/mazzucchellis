@@ -2,11 +2,19 @@
  * Invio di Email
  */
 $(document).ready(function() {
+
     // Home page visualization for mobile devices
     if ($(window).width() < 479 && window.location.pathname === '/') {
+        //$('#in-evidenza article:not(:eq(2))').css('display', 'none');
         $('#article-container article:not(:first)').css('display', 'none');
     }
 
+    // Development version
+    //    if ($(window).width() < 479 && window.location.pathname === '/mazzucchelli_wp/wordpress/') {
+    //        $('#in-evidenza article:not(:first)').css('display', 'none');
+    //        $('#article-container article:not(:first)').css('display', 'none');
+    //    } 
+    
     // Mobile browser detections.
     var isMobile = function() {
         if (navigator.userAgent.match(/Android/i) ||
@@ -54,10 +62,21 @@ $(document).ready(function() {
     // Social Button.
     $('.share-this').hover(function() {
         $(this).find('.social-button-small').fadeIn();
+        FB.XFBML.parse();
     }, function() {
         $(this).find('.social-button-small').fadeOut();
     });
 
+    Socialite.setup({
+        facebook: {
+            lang: 'it_IT',
+            appId: 313821018733412
+        }
+    });
+
+
+    // Load Share Button.         
+    Socialite.load();
 
     // Form Submit.
     $("#frmContatti").submit(function() {
@@ -82,6 +101,8 @@ $(document).ready(function() {
                 });
             }
         });
+
         return false;
     });
+
 });

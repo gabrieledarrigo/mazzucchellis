@@ -1,0 +1,797 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: captcha\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-28 09:52+0300\n"
+"PO-Revision-Date: 2016-01-28 09:52+0300\n"
+"Last-Translator: BestWebSoft team <wp@bestwebsoft.com>\n"
+"Language-Team: Uroš Klopčič <uros.klopcic@gmail.com>\n"
+"Language: sr_RS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: captcha.php:33 captcha.php:497
+msgid "Captcha Settings"
+msgstr "Captcha nastavitve"
+
+#: captcha.php:33
+msgid "Captcha"
+msgstr "Captcha"
+
+#: captcha.php:184
+#, fuzzy
+msgid "Please enter a CAPTCHA value."
+msgstr "Prosimo vnesite CAPTCHA vrednost"
+
+#: captcha.php:185
+msgid "Please enter a valid CAPTCHA value."
+msgstr "Prosimo vnesite CAPTCHA vrednost"
+
+#: captcha.php:186
+#, fuzzy
+msgid "Time limit is exhausted. Please enter CAPTCHA value again."
+msgstr "Prosimo vnesite CAPTCHA vrednost"
+
+#: captcha.php:187
+msgid "You are in the white list"
+msgstr ""
+
+#: captcha.php:369
+msgid "Login form"
+msgstr "Obrazec za prijavo"
+
+#: captcha.php:370 includes/pro_banners.php:48
+msgid "Registration form"
+msgstr "Obrazec za registracijo"
+
+#: captcha.php:371
+msgid "Reset Password form"
+msgstr "Obrazec za ponastavitev gesla"
+
+#: captcha.php:372 includes/pro_banners.php:49
+msgid "Comments form"
+msgstr "Obrazec za komentarje"
+
+#: captcha.php:375
+#, fuzzy
+msgid "in Comments form for registered users"
+msgstr "Skrij CAPTCHA v obrazcu za komentarje za registrirane uporabnike"
+
+#: captcha.php:379
+msgid "Plus (&#43;)"
+msgstr "Plus (&#43;)"
+
+#: captcha.php:379
+msgid "Plus"
+msgstr "Plus (&#43;)"
+
+#: captcha.php:380
+msgid "Minus (&minus;)"
+msgstr "Minus (&minus;)"
+
+#: captcha.php:380
+msgid "Minus"
+msgstr "Minus"
+
+#: captcha.php:381
+msgid "Multiplication (&times;)"
+msgstr "Množenje (&times;)"
+
+#: captcha.php:381
+msgid "Multiply"
+msgstr "Zmnoži (&times;)"
+
+#: captcha.php:386
+msgid "Numbers"
+msgstr "Številke"
+
+#: captcha.php:387
+msgid "Words"
+msgstr "Besede"
+
+#: captcha.php:388
+msgid "Images"
+msgstr ""
+
+#: captcha.php:435
+msgid ""
+"Please select one item in the block Arithmetic and Complexity for CAPTCHA"
+msgstr ""
+"Prosimo izberite eno opcijo v sekciji aritmetičnih operacij in težavnosti za "
+"CAPTCHA"
+
+#: captcha.php:441
+#, fuzzy
+msgid "Please select one item in the block Enable image packages"
+msgstr ""
+"Prosimo izberite eno opcijo v sekciji aritmetičnih operacij in težavnosti za "
+"CAPTCHA"
+
+#: captcha.php:470
+msgid "Settings saved."
+msgstr "Nastavitve shranjene."
+
+#: captcha.php:482
+msgid "All plugin settings were restored."
+msgstr ""
+
+#: captcha.php:499
+msgid "How to Use Step-by-step Instruction"
+msgstr ""
+
+#: captcha.php:502
+msgid "Basic"
+msgstr ""
+
+#: captcha.php:503
+msgid "Advanced"
+msgstr ""
+
+#: captcha.php:504
+msgid "Whitelist"
+msgstr ""
+
+#: captcha.php:505
+msgid "Go PRO"
+msgstr "Izberite PRO"
+
+#: captcha.php:521 captcha.php:524 includes/pro_banners.php:36
+#: includes/pro_banners.php:44 includes/pro_banners.php:47
+#, fuzzy
+msgid "Enable CAPTCHA for"
+msgstr "Omogoči CAPTCHA za:"
+
+#: captcha.php:525
+msgid "WordPress default"
+msgstr ""
+
+#: captcha.php:531
+msgid "This option is available only for main blog"
+msgstr ""
+
+#: captcha.php:546
+#, fuzzy
+msgid "Plugins"
+msgstr "Vtičniki"
+
+#: captcha.php:553 captcha.php:559
+msgid "You should"
+msgstr ""
+
+#: captcha.php:553 includes/whitelist.php:402
+msgid "activate"
+msgstr ""
+
+#: captcha.php:553
+msgid "for network"
+msgstr ""
+
+#: captcha.php:553 captcha.php:561
+msgid "to use this functionality"
+msgstr ""
+
+#: captcha.php:560
+msgid "download"
+msgstr ""
+
+#: captcha.php:573
+msgid "If you would like to add Captcha to a custom form, please see"
+msgstr "Če bi radi dodali Captcha k poljubnemu obrazcu, se obrnite na"
+
+#: captcha.php:581
+#, fuzzy
+msgid "Hide CAPTCHA"
+msgstr "Omogoči CAPTCHA:"
+
+#: captcha.php:588
+msgid "Title"
+msgstr ""
+
+#: captcha.php:592
+msgid "Required symbol"
+msgstr "Zahtevan simbol"
+
+#: captcha.php:598
+msgid "Show \"Reload\" button"
+msgstr ""
+
+#: captcha.php:604
+#, fuzzy
+msgid "Arithmetic actions"
+msgstr "Aritmetične operacije za CAPTCHA"
+
+#: captcha.php:607
+msgid "Arithmetic actions for CAPTCHA"
+msgstr "Aritmetične operacije za CAPTCHA"
+
+#: captcha.php:619 captcha.php:621
+msgid "Complexity"
+msgstr ""
+
+#: captcha.php:637
+msgid "Enable image packages"
+msgstr ""
+
+#: captcha.php:647
+msgid "Enlarge images on mouseover"
+msgstr ""
+
+#: captcha.php:657
+msgid "Enable time limit"
+msgstr ""
+
+#: captcha.php:663
+msgid "Set time limit"
+msgstr ""
+
+#: captcha.php:666
+msgid "seconds"
+msgstr ""
+
+#: captcha.php:672
+msgid "Notification messages"
+msgstr ""
+
+#: captcha.php:674 captcha.php:967 captcha.php:973 captcha.php:1174
+#: captcha.php:1190
+msgid "Error"
+msgstr ""
+
+#: captcha.php:675
+#, fuzzy
+msgid "If CAPTCHA field is empty"
+msgstr "Ta CAPTCHA je pogrešna"
+
+#: captcha.php:676
+#, fuzzy
+msgid "If CAPTCHA is incorrect"
+msgstr "Ta CAPTCHA je pogrešna"
+
+#: captcha.php:677
+msgid "If time limit is exhausted"
+msgstr ""
+
+#: captcha.php:678
+msgid "Info"
+msgstr ""
+
+#: captcha.php:679
+msgid ""
+"If the user IP is added to the whitelist (this message will be displayed "
+"instead of CAPTCHA)."
+msgstr ""
+
+#: captcha.php:686
+msgid "Save Changes"
+msgstr "Shrani spremembe"
+
+#: captcha.php:824 captcha.php:831 captcha.php:846 captcha.php:848
+#: captcha.php:856 captcha.php:1060 captcha.php:1068 captcha.php:1084
+#: captcha.php:1088 captcha.php:1097 captcha.php:1121 captcha.php:1131
+#: captcha.php:1149 captcha.php:1152 captcha.php:1160
+msgid "ERROR"
+msgstr "NAPAKA"
+
+#: captcha.php:967 captcha.php:973 captcha.php:1174 captcha.php:1190
+#, fuzzy
+msgid "Click the BACK button on your browser, and try again."
+msgstr ""
+"Napaka: Vnesli ste napačno CAPTCHA vrednost. Vrnite se nazaj in poskušajte "
+"ponovno."
+
+#: captcha.php:1405
+msgid "zero"
+msgstr "nič"
+
+#: captcha.php:1406 captcha.php:1791
+msgid "one"
+msgstr "ena"
+
+#: captcha.php:1407
+msgid "two"
+msgstr "dva"
+
+#: captcha.php:1408
+msgid "three"
+msgstr "tri"
+
+#: captcha.php:1409
+msgid "four"
+msgstr "štiri"
+
+#: captcha.php:1410
+msgid "five"
+msgstr "pet"
+
+#: captcha.php:1411 captcha.php:1791
+msgid "six"
+msgstr "šest"
+
+#: captcha.php:1412 captcha.php:1779 captcha.php:1785
+msgid "seven"
+msgstr "sedem"
+
+#: captcha.php:1413 captcha.php:1782
+msgid "eight"
+msgstr "osem"
+
+#: captcha.php:1414
+msgid "nine"
+msgstr "devet"
+
+#: captcha.php:1417
+msgid "eleven"
+msgstr "enajst"
+
+#: captcha.php:1418
+msgid "twelve"
+msgstr "dvanajst"
+
+#: captcha.php:1419
+msgid "thirteen"
+msgstr "trinajst"
+
+#: captcha.php:1420
+msgid "fourteen"
+msgstr "štirinajst"
+
+#: captcha.php:1421
+msgid "fifteen"
+msgstr "petnajst"
+
+#: captcha.php:1422
+msgid "sixteen"
+msgstr "šestnajst"
+
+#: captcha.php:1423
+msgid "seventeen"
+msgstr "sedemnajst"
+
+#: captcha.php:1424
+msgid "eighteen"
+msgstr "osemnajst"
+
+#: captcha.php:1425
+msgid "nineteen"
+msgstr "devetnajst"
+
+#: captcha.php:1428
+msgid "ten"
+msgstr "deset"
+
+#: captcha.php:1429
+msgid "twenty"
+msgstr "dvajset"
+
+#: captcha.php:1430
+msgid "thirty"
+msgstr "trideset"
+
+#: captcha.php:1431
+msgid "forty"
+msgstr "štirideset"
+
+#: captcha.php:1432
+msgid "fifty"
+msgstr "petdeset"
+
+#: captcha.php:1433
+msgid "sixty"
+msgstr "šestdeset"
+
+#: captcha.php:1434
+msgid "seventy"
+msgstr "sedemdeset"
+
+#: captcha.php:1435
+msgid "eighty"
+msgstr "osemdeset"
+
+#: captcha.php:1436
+msgid "ninety"
+msgstr "devetdeset"
+
+#: captcha.php:1445
+msgid "and"
+msgstr "in"
+
+#: captcha.php:1511
+msgid "Encryption password is not set"
+msgstr "Geslo za šifriranje ni določeno"
+
+#: captcha.php:1531
+msgid "Decryption password is not set"
+msgstr "Geslo za dešifriranje ni določeno"
+
+#: captcha.php:1878 captcha.php:1891
+msgid "Settings"
+msgstr "Nastavitve"
+
+#: captcha.php:1892
+msgid "FAQ"
+msgstr "FAQ"
+
+#: captcha.php:1893
+msgid "Support"
+msgstr "Podpora"
+
+#: captcha.php:1923
+#, php-format
+msgid "Try New %s: with Pictures Now!"
+msgstr ""
+
+#: includes/whitelist.php:70
+msgid "For IP addresses from the whitelist CAPTCHA will not be displayed"
+msgstr ""
+
+#: includes/whitelist.php:82
+#, php-format
+msgid ""
+"With this option, CAPTCHA will not be displayed for IP-addresses from the "
+"whitelist of %s"
+msgstr ""
+
+#: includes/whitelist.php:93 includes/whitelist.php:129
+msgid "Add IP to whitelist"
+msgstr ""
+
+#: includes/whitelist.php:96
+msgid "Load IP to whitelist"
+msgstr ""
+
+#: includes/whitelist.php:99
+#, php-format
+msgid ""
+"By click on this button, all IP-addresses from the whitelist of %s will be "
+"loaded to the whitelist of %s"
+msgstr ""
+
+#: includes/whitelist.php:108
+#, fuzzy
+msgid "Save changes"
+msgstr "Shrani spremembe"
+
+#: includes/whitelist.php:125
+msgid "My IP"
+msgstr ""
+
+#: includes/whitelist.php:133 includes/pro_banners.php:91
+msgid "Allowed formats:"
+msgstr ""
+
+#: includes/whitelist.php:134
+msgid "Allowed diapason:"
+msgstr ""
+
+#: includes/whitelist.php:140
+msgid "Search IP"
+msgstr ""
+
+#: includes/whitelist.php:172
+msgid "Nothing found"
+msgstr ""
+
+#: includes/whitelist.php:172
+msgid "No IP in whitelist"
+msgstr ""
+
+#: includes/whitelist.php:179
+msgid "IP address"
+msgstr ""
+
+#: includes/whitelist.php:180
+msgid "Date added"
+msgstr ""
+
+#: includes/whitelist.php:229 includes/whitelist.php:238
+msgid "Remove from whitelist"
+msgstr ""
+
+#: includes/whitelist.php:310
+msgid "IP added to the whitelist successfully"
+msgstr ""
+
+#: includes/whitelist.php:312 includes/whitelist.php:334
+#: includes/whitelist.php:346
+msgid "Some errors occured"
+msgstr ""
+
+#: includes/whitelist.php:314
+msgid "IP is already in the whitelist"
+msgstr ""
+
+#: includes/whitelist.php:317
+msgid "Invalid IP. See allowed formats"
+msgstr ""
+
+#: includes/whitelist.php:340
+msgid "One IP was deleted successfully"
+msgstr ""
+
+#: includes/whitelist.php:349
+msgid "You have not entered any value"
+msgstr ""
+
+#: includes/whitelist.php:352
+msgid "You have not entered any value in to the search form"
+msgstr ""
+
+#: includes/whitelist.php:354
+msgid "Search results for"
+msgstr ""
+
+#: includes/whitelist.php:368
+msgid "IP-address(es) successfully copied to the whitelist"
+msgstr ""
+
+#: includes/whitelist.php:393
+msgid "use"
+msgstr ""
+
+#: includes/whitelist.php:393
+msgid "whitelist of"
+msgstr ""
+
+#: includes/whitelist.php:401 includes/whitelist.php:409
+#, php-format
+msgid "use whitelist of %s"
+msgstr ""
+
+#: includes/whitelist.php:402
+#, php-format
+msgid "you should %s to use this functionality"
+msgstr ""
+
+#: includes/whitelist.php:410
+#, php-format
+msgid "you should instal %s to use this functionality"
+msgstr ""
+
+#: includes/pro_banners.php:17
+msgid "This options is available in Pro version of plugin"
+msgstr ""
+
+#: includes/pro_banners.php:19
+msgid "Close"
+msgstr ""
+
+#: includes/pro_banners.php:24
+#, fuzzy
+msgid "Unlock premium options by upgrading to Pro version"
+msgstr "Odklenite dodatne možnosti z nadgradnjo na PRO verzijo."
+
+#: includes/pro_banners.php:25
+msgid "Learn More"
+msgstr "Več"
+
+#: includes/pro_banners.php:50
+msgid "\"Create a Group\" form"
+msgstr "\"Ustvari Skupino\" obrazec"
+
+#: includes/pro_banners.php:56
+#, fuzzy
+msgid "Enable CAPTCHA"
+msgstr "Omogoči CAPTCHA:"
+
+#: includes/pro_banners.php:64
+msgid "If you upgrade to Pro version all your settings will be saved."
+msgstr "Če nadgradite na PRO verzijo, bodo vse vaše nastavitve shranjene."
+
+#: includes/pro_banners.php:75
+msgid "Use several packages at the same time"
+msgstr ""
+
+#: includes/pro_banners.php:78
+msgid ""
+"If this option is enabled, CAPTCHA will be use pictures from different "
+"packages at the same time"
+msgstr ""
+
+#: includes/pro_banners.php:89
+msgid "Reason"
+msgstr ""
+
+#: includes/pro_banners.php:92
+msgid "Allowed separators for IPs: a comma"
+msgstr ""
+
+#: includes/pro_banners.php:92 includes/pro_banners.php:93
+msgid "semicolon"
+msgstr ""
+
+#: includes/pro_banners.php:92
+msgid "ordinary space, tab, new line or carriage return"
+msgstr ""
+
+#: includes/pro_banners.php:93
+msgid "Allowed separators for reasons: a comma"
+msgstr ""
+
+#: includes/pro_banners.php:93
+msgid "tab, new line or carriage return"
+msgstr ""
+
+#: includes/package_loader.php:27 includes/package_loader.php:139
+msgid ""
+"Can not load images in to the \"uploads\" folder. Please, check your "
+"permissions."
+msgstr ""
+
+#: includes/package_loader.php:39
+msgid "File packages.txt not found. Package not saved."
+msgstr ""
+
+#: includes/package_loader.php:45
+msgid "Can not read data from packages.txt. Packages not saved."
+msgstr ""
+
+#: includes/package_loader.php:167
+msgid "Package successfully loaded."
+msgstr ""
+
+#~ msgid "Notice:"
+#~ msgstr "Obvestilo:"
+
+#~ msgid ""
+#~ "The plugin's settings have been changed. In order to save them please "
+#~ "don't forget to click the 'Save Changes' button."
+#~ msgstr ""
+#~ "Nastavitve vtičnika so se spremenile. Da se ne bi izgubile, jih prosim "
+#~ "shranite s pritiskom na gumb 'Shrani spremembe'."
+
+#~ msgid "Title for CAPTCHA in the form"
+#~ msgstr "Naslov za CAPTCHA v obrazcu"
+
+#~ msgid "CAPTCHA complexity level"
+#~ msgstr "CAPTCHA nivo težavnosti"
+
+#~ msgid "Go"
+#~ msgstr "Zaženi"
+
+#, fuzzy
+#~ msgid "Contact Form"
+#~ msgstr "Kontaktni obrazec"
+
+#~ msgid "Activate contact form"
+#~ msgstr "Aktiviraj kontaktni obrazec"
+
+#~ msgid "Download contact form"
+#~ msgstr "Prenesi kontaktni obrazec"
+
+#~ msgid "Register form"
+#~ msgstr "Obrazec za registracijo"
+
+#~ msgid "Lost password form"
+#~ msgstr "Obrazec za izgubljeno geslo"
+
+#~ msgid "requires"
+#~ msgstr "zahteva"
+
+#~ msgid ""
+#~ "or higher, that is why it has been deactivated! Please upgrade WordPress "
+#~ "and try again."
+#~ msgstr ""
+#~ "ali višjo, zato je bil deaktiviran! Prosim nadgradite WordPress in "
+#~ "poizkusite znova."
+
+#~ msgid "Back to the WordPress"
+#~ msgstr "Nazaj na WordPress"
+
+#~ msgid "Wrong license key"
+#~ msgstr "Napačna licenca"
+
+#~ msgid ""
+#~ "Something went wrong. Try again later. If the error will appear again, "
+#~ "please, contact us <a href=http://support.bestwebsoft.com>BestWebSoft</"
+#~ "a>. We are sorry for inconvenience."
+#~ msgstr ""
+#~ "Nekaj je šlo narobe. Prosim poizkusite kasneje. Če se napaka zopet "
+#~ "pojavi, nas prosim kontaktirajte na <a href=http://support.bestwebsoft."
+#~ "com>BestWebSoft</a>. Oproščamo se za nevšečnosti."
+
+#~ msgid "This license key is bind to another site"
+#~ msgstr "Ta licenca je že uporabljena pri drugi strani"
+
+#~ msgid ""
+#~ "Unfortunately, you have exceeded the number of available tries per day. "
+#~ "Please, upload the plugin manually."
+#~ msgstr ""
+#~ "Žal ste prekoračili dnevni limit poizkusov. Prosim, naložite vtičnik "
+#~ "ročno."
+
+#~ msgid ""
+#~ "Failed to download the zip archive. Please, upload the plugin manually"
+#~ msgstr "Napaka pri prenosu zip arhiva. Prosim, naložite vtičnik ročno"
+
+#~ msgid "Failed to open the zip archive. Please, upload the plugin manually"
+#~ msgstr "Napaka pri odpiranju zip arhiva. Prosim, naložite vtičnik ročno"
+
+#~ msgid ""
+#~ "Your server does not support either ZipArchive or Phar. Please, upload "
+#~ "the plugin manually"
+#~ msgstr ""
+#~ "Vaš strežnik ne podpira ZipArchive ali Phar. Prosim, naložite vtičnik "
+#~ "ročno"
+
+#, fuzzy
+#~ msgid "UploadDir is not writable. Please, upload the plugin manually"
+#~ msgstr "Napaka pri odpiranju zip arhiva. Prosim, naložite vtičnik ročno"
+
+#~ msgid ""
+#~ "Something went wrong. Try again later or upload the plugin manually. We "
+#~ "are sorry for inconvenience."
+#~ msgstr ""
+#~ "Nekaj je šlo narobe. Prosim poizkusite kasneje ali prenesite vtičnik "
+#~ "ročno. Oproščamo se za nevšečnosti."
+
+#~ msgid "Please, enter Your license key"
+#~ msgstr "Prosim, vnesite vašo licenco"
+
+#~ msgid "powered by"
+#~ msgstr "poganja"
+
+#~ msgid "Subscriber"
+#~ msgstr "Naročnik"
+
+#~ msgid "If you enjoy our plugin, please give it 5 stars on WordPress"
+#~ msgstr ""
+#~ "Če vam je vtičnik všeč, ga prosimo ocenite s 5 zvezdicami na WordPress"
+
+#~ msgid "Rate the plugin"
+#~ msgstr "Ocenite vtičnik"
+
+#~ msgid "If there is something wrong about it, please contact us"
+#~ msgstr "Če je kaj narobe z vtičnikom, nas prosim kontaktirajte"
+
+#~ msgid ""
+#~ "Congratulations! The PRO version of the plugin is successfully download "
+#~ "and activated."
+#~ msgstr ""
+#~ "Čestitke! PRO verzija vtičnika je bila uspešno prenesena in aktivirana."
+
+#~ msgid "Please, go to"
+#~ msgstr "Prosim, pojdite na"
+
+#~ msgid "the setting page"
+#~ msgstr "stran z nastavitvami"
+
+#~ msgid "You will be redirected automatically in 5 seconds."
+#~ msgstr "Preusmerjeni boste v 5 sekundah."
+
+#~ msgid "You can download and activate"
+#~ msgstr "Prenesete in aktivirate lahko"
+
+#~ msgid "version of this plugin by entering Your license key."
+#~ msgstr "verzijo tega vtičnika z vnosom licence."
+
+#~ msgid ""
+#~ "You can find your license key on your personal page Client area, by "
+#~ "clicking on the link"
+#~ msgstr "Vašo licenco lahko najdete na osebni strani, če sledite povezavi"
+
+#~ msgid ""
+#~ "(your username is the email you specify when purchasing the product)."
+#~ msgstr "(vaše uporabniško ime je e-poštni naslov podan ob nakupu produkta)."
+
+#~ msgid "Go!"
+#~ msgstr "Zaženi!"
+
+#, fuzzy
+#~ msgid "ERROR:"
+#~ msgstr "NAPAKA"
+
+#~ msgid ""
+#~ "It's time to upgrade your <strong>Captcha plugin</strong> to <strong>PRO</"
+#~ "strong> version"
+#~ msgstr ""
+#~ "Čas je za nadgradnjo vašega <strong>Captcha vtičnika</strong> na "
+#~ "<strong>PRO</strong> verzijo"
+
+#~ msgid "Extend standard plugin functionality with new great options"
+#~ msgstr "Nadgradite običajen vtičnik z novimi opcijami"

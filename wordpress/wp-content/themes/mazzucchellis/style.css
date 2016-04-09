@@ -448,10 +448,8 @@ header h3 {
     background-color: #000000;
 }
 
-#menu ul li.costumi {
-    background: #FF0066;
-    margin-right: 20px;
-    margin-left: 20px;
+#menu ul li.travestimenti {
+    background: #3399CC;
 }
 
 #menu ul li.travestimenti .menu-wrapper > ul {
@@ -464,21 +462,21 @@ header h3 {
 }
 
 #menu ul li.pirotecnica {
-    background: #3399CC;
-    margin-right:40px;
+    background: #FFCC00;
+    margin-left:40px;
 }
 
 #menu ul li.news {
     background-color: #000000;
-    margin-left: 90px;
+    margin-left: 40px;
 }
 
 #menu ul li.news:hover {
     background-color: #3399CC;
 }
 
-#menu ul li.feste {
-    background-color: #FFCC00;; 
+#menu ul li.info {
+    background-color: #99CC33; 
     margin-left: 64px;
 }
 
@@ -500,8 +498,8 @@ header h3 {
     z-index: 1001;
 }
 
-#menu .costumi .menu-wrapper {
-    background-color: #FF0066;
+#menu .travestimenti .menu-wrapper {
+    background-color: #3399CC;
 }
 
 #menu .accessori .menu-wrapper {
@@ -509,11 +507,11 @@ header h3 {
 }
 
 #menu .pirotecnica .menu-wrapper {
-    background-color: #3399CC;
+    background-color: #FFCC00;
 }
 
-#menu .feste .menu-wrapper {
-    background-color: #FFCC00;
+#menu .info .menu-wrapper {
+    background-color: #000000;
 }
 
 #menu .menu-wrapper .menu-background {
@@ -659,22 +657,18 @@ article .social-button-large ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    list-style-type: none;
 }
 
 article .social-button-small li,
 article .social-button-large li {
     list-style-type: none;
     float: left;
+    margin: 3px;
 }
 
-article .social-button-large ul > li > a {
+article .social-button-large ul >li > a {
     height: auto;
-    padding: 0 2px;
-}
-
-#article-container  article .social-button-large ul > li > a > img {
-   width: 50px;
+    padding: 0 6px;
 }
 
 article .social-button-large li.comment {
@@ -1765,12 +1759,12 @@ div.poweredWrapper{margin-left: 25px}
         font-size: 20px;
         margin: 0 0 10px;
     }
-
+    
     #searchform {
         width: 100%;
         float: none;
     }
-
+    
     #searchform #btnSrc,
     #searchform #s {
         background-color: #FFF;
@@ -1778,7 +1772,7 @@ div.poweredWrapper{margin-left: 25px}
         border: 1px solid #333;
         color: #333;
     }
-
+    
     #searchform #s {
         width: 340px;
     }
@@ -1798,7 +1792,7 @@ div.poweredWrapper{margin-left: 25px}
     #s:-ms-input-placeholder {
         color: #333;
     }
-
+    
     #social {
         float: none;
         margin: 0 auto 15px;
