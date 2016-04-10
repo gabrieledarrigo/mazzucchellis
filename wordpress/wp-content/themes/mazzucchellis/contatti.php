@@ -39,7 +39,7 @@ get_header();
                             </li>
                             <li>
                                 <a class="socialite twitter-share" data-url="<?php the_permalink(); ?>" data-count="vertical" data-text="<?php the_title(); ?>" data-via="Mazzucchellis" 
-                                   data-lang="it" data-related="Mazzucchellis" data-hashtags="Travestimenti, Maschere,  Accessori, Pirotecnica">
+                                   data-lang="it" data-related="Mazzucchellis" data-hashtags="Costumi, Maschere,  Accessori, Pirotecnica">
                                     Share on Twitter
                                 </a>
                             </li>

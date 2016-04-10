@@ -83,20 +83,20 @@
                     </li>
                 </ul>
 
-                <img src="<?php bloginfo('template_url'); ?>/img/icon/travestimenti-menu-icon.png" 
-                     title="Travestimenti" alt="Travestimenti" class="menu-background"/>
+                <img src="<?php bloginfo('template_url'); ?>/img/icon/costumi-menu-icon.png"
+                     title="Costumi" alt="Costumi" class="menu-background"/>
             </div>
         </li>
 
-        <li class="menu-button accessori">
-            <span>Accessori</span>
-            <div id="accessori" class="menu-wrapper">
+        <li class="menu-button gadget">
+            <span>Gadget</span>
+            <div id="gadget" class="menu-wrapper">
                 <ul>
                     <li class="elenco">
-                        <h2>Accessori</h2>
+                        <h2>Gadget</h2>
                         <ul>
                             <?php
-                            $category = get_term_by('slug', 'accessori', $taxonomy);
+                            $category = get_term_by('slug', 'gadget', $taxonomy);
                             $allestimenti_category = get_term_by('slug', 'allestimenti', $taxonomy);
 
                             $args = array(
@@ -127,24 +127,26 @@
                     </li>
                 </ul>
 
-                <img src="<?php bloginfo('template_url'); ?>/img/icon/accessori-menu-icon.png" 
-                     title="Accessori" alt="Accessori" class="menu-background"/>
+                <img src="<?php bloginfo('template_url'); ?>/img/icon/gadget-menu-icon.png"
+                     title="Gadget" alt="Gadget" class="menu-background"/>
             </div>
         </li>
 
-        <li class="menu-button feste">
+        <li class="menu-button custom">
             <span>
                 <?php
                 $menu = wp_get_nav_menu_object('menu-custom');
-
+                $custom_menu_title = '';
                 if ($menu) {
                     $menu_items = wp_get_nav_menu_items($menu->term_id);
-                    echo $menu_items[0]->title;
+                    $custom_menu_title = $menu_items[0]->title;
                 }
                 ?>
+
+                <?php echo $custom_menu_title; ?>
             </span>
 
-            <div id="informazioni" class="menu-wrapper">
+            <div id="custom" class="menu-wrapper">
                 <ul>
                     <li class="elenco">
                         <?php
@@ -156,8 +158,8 @@
                     </li>
                 </ul>
 
-                <img src="<?php bloginfo('template_url'); ?>/img/icon/informazioni-menu-icon.png" 
-                     title="Informazioni" alt="Informazioni" class="menu-background"/>
+                <img src="<?php bloginfo('template_url'); ?>/img/icon/feste-menu-icon.png"
+                     title="<?php echo $custom_menu_title; ?>" alt="<?php echo $custom_menu_title; ?>" class="menu-background"/>
             </div>
         </li>
 

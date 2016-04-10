@@ -48,7 +48,6 @@
 body {
     background: url('img/debut_light.png') #FFFFFF repeat;
     font-family: helvetica, verdana, sans-serif;
-    /*    font-family: arial, helvetica, verdana, sans-serif;*/
     color: #333333;
 }
 
@@ -88,7 +87,6 @@ a:hover {
 }
 
 /* Allineamento immagini Wordpress */
-
 img.alignright {
     float: right;
     margin: 0 0 1em 1em
@@ -236,14 +234,14 @@ header h2.in-evidenza-icon {
     background: url('img/icon/lens.png') transparent no-repeat left center;
 }
 
-header h2.travestimenti-icon {
+header h2.costumi-icon {
     padding: 10px 0 0 50px;
-    background: url('img/icon/travestimenti-icon.png') transparent no-repeat left center;
+    background: url('img/icon/costumi-icon.png') transparent no-repeat left center;
 }
 
-header h2.accessori-icon {
+header h2.gadget-icon {
     padding: 10px 0 0 50px;
-    background: url('img/icon/accessori-icon.png') transparent no-repeat left center;
+    background: url('img/icon/gadget-icon.png') transparent no-repeat left center;
 }
 
 header h2.pirotecnica-icon {
@@ -372,7 +370,6 @@ header h3 {
 }
 
 /* Social Icon */
-
 #social {
     margin-top: 22px;
     overflow: hidden;
@@ -471,36 +468,36 @@ header h3 {
     background-color: #000000;
 }
 
-#menu ul li.costumi {
-    background: #FF0066;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-#menu ul li.travestimenti .menu-wrapper > ul {
-    background-color: transparent;
-}
-
-#menu ul li.accessori {
-    background: #FF0066;
-    margin-left: 40px;
-}
-
 #menu ul li.pirotecnica {
     background: #3399CC;
     margin-right: 40px;
 }
 
+#menu ul li.costumi {
+    background: #FF0066;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#menu ul li.costumi .menu-wrapper > ul {
+    background-color: transparent;
+}
+
+#menu ul li.gadget {
+    background: #FF0066;
+    margin-left: 50px;
+}
+
 #menu ul li.news {
-    background-color: #000000;
+    background-color: #99CC33;
     margin-left: 90px;
 }
 
 #menu ul li.news:hover {
-    background-color: #3399CC;
+    background-color: #000000;
 }
 
-#menu ul li.feste {
+#menu ul li.custom {
     background-color: #FFCC00;;
     margin-left: 64px;
 }
@@ -523,20 +520,20 @@ header h3 {
     z-index: 1001;
 }
 
-#menu .costumi .menu-wrapper {
-    background-color: #FF0066;
-}
-
-#menu .accessori .menu-wrapper {
-    background-color: #FF0066;
-}
-
 #menu .pirotecnica .menu-wrapper {
     background-color: #3399CC;
 }
 
-#menu .feste .menu-wrapper {
+#menu .custom .menu-wrapper {
     background-color: #FFCC00;
+}
+
+#menu .costumi .menu-wrapper {
+    background-color: #FF0066;
+}
+
+#menu .gadget .menu-wrapper {
+    background-color: #FF0066;
 }
 
 #menu .menu-wrapper .menu-background {
@@ -700,9 +697,10 @@ article .social-button-large ul > li > a {
     width: 50px;
 }
 
-article .social-button-large li.comment {
+article .social-button-large ul > li.comment {
     float: left;
-    margin-top: 22px;
+    margin-top: 3px;
+    margin-left: 5px;
 }
 
 article .social-button-small li div,
@@ -790,11 +788,14 @@ article ol {
     padding: 0 20px;
 }
 
-article .comment-link {
-    padding: 5px 25px 5px 5px;
+article .social-button-large ul > li > a.comment-link {
+    padding: 0 5px;
     display: block;
     color: #FFFFFF;
     border-radius: 4px;
+    height: 45px;
+    line-height: 45px;
+    width: 100px;
     background: url('img/icon/comment-icon-white.png') #3399CC no-repeat 80px center;
     transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -1308,20 +1309,20 @@ footer {
 
 /* Menu categorie nel footer */
 
-#footer-menu #nav-categorie ul li a.travestimenti {
-    background: url('img/icon/travestimenti-icon-white.png') #3399CC no-repeat 185px center;
+#footer-menu #nav-categorie ul li a.costumi {
+    background: url('img/icon/costumi-icon-white.png') #3399CC no-repeat 185px center;
 }
 
-#footer-menu #nav-categorie ul li a.travestimenti:hover {
-    background: url('img/icon/travestimenti-icon-blu.png') #000000 no-repeat 185px center;
+#footer-menu #nav-categorie ul li a.costumi:hover {
+    background: url('img/icon/costumi-icon-blu.png') #000000 no-repeat 185px center;
 }
 
-#footer-menu #nav-categorie ul li a.accessori {
-    background: url('img/icon/accessori-icon-white.png') #3399CC no-repeat 185px center;
+#footer-menu #nav-categorie ul li a.gadget {
+    background: url('img/icon/gadget-icon-white.png') #3399CC no-repeat 185px center;
 }
 
-#footer-menu #nav-categorie ul li a.accessori:hover {
-    background: url('img/icon/accessori-icon-blu.png') #000000 no-repeat 185px center;
+#footer-menu #nav-categorie ul li a.gadget:hover {
+    background: url('img/icon/gadget-icon-blu.png') #000000 no-repeat 185px center;
 }
 
 #footer-menu #nav-categorie ul li a.pirotecnica {
@@ -1937,9 +1938,9 @@ div.poweredWrapper {
 
     #menu ul .menu-button {
         float: none;
-        width: 99%;
+        width: 100%;
         height: 35px;
-        margin: 2px 0;
+        margin: 2px 0!important;
         padding: 0;
         border-radius: 4px;
         color: #FFFFFF;
@@ -1952,9 +1953,9 @@ div.poweredWrapper {
         -o-transition: all 0.5s;
     }
 
-    #menu ul li.travestimenti,
-    #menu ul li.accessori,
     #menu ul li.pirotecnica,
+    #menu ul li.costumi,
+    #menu ul li.gadget,
     #menu ul li.news,
     #menu ul li.info {
         margin: 5px 0;
@@ -1983,20 +1984,20 @@ div.poweredWrapper {
         height: auto;
     }
 
-    #menu li.travestimenti .menu-wrapper ul {
+    #menu li.pirotecnica .menu-wrapper ul {
         background: #3399CC;
     }
 
-    #menu li.accessori .menu-wrapper ul {
+    #menu li.costumi .menu-wrapper ul {
         background: #FF0066;
     }
 
-    #menu li.pirotecnica .menu-wrapper ul {
-        background: #FFCC00;
+    #menu li.gadget .menu-wrapper ul {
+        background: #FF0066;
     }
 
-    #menu li.info .menu-wrapper ul {
-        background: #99CC33;
+    #menu li.custom .menu-wrapper ul {
+        background: #FFCC00;
     }
 
     .menu-wrapper ul .elenco {
@@ -2181,7 +2182,10 @@ div.poweredWrapper {
         background-position: 140px center !important;
     }
 
-    #slide, #sidebar-small, #brand, #sub-footer,
+    #slide,
+    #sidebar-small,
+    #brand,
+    #sub-footer,
     #disqus_thread {
         display: none;
     }
@@ -2258,9 +2262,9 @@ div.poweredWrapper {
 
     #menu ul .menu-button {
         float: none;
-        width: 99%;
+        width: 100%;
         height: 35px;
-        margin: 2px 0;
+        margin: 2px 0!important;
         padding: 0;
         border-radius: 4px;
         color: #FFFFFF;
@@ -2269,11 +2273,11 @@ div.poweredWrapper {
         text-align: center;
     }
 
-    #menu ul li.travestimenti,
-    #menu ul li.accessori,
     #menu ul li.pirotecnica,
+    #menu ul li.costumi,
+    #menu ul li.gadget,
     #menu ul li.news,
-    #menu ul li.info {
+    #menu ul li.custom {
         margin: 5px 0;
     }
 
@@ -2296,15 +2300,19 @@ div.poweredWrapper {
         height: auto;
     }
 
-    #menu li.travestimenti .menu-wrapper ul {
+    #menu li.pirotecnica .menu-wrapper ul {
         background: #3399CC;
     }
 
-    #menu li.accessori .menu-wrapper ul {
+    #menu li.costumi .menu-wrapper ul {
         background: #FF0066;
     }
 
-    #menu li.pirotecnica .menu-wrapper ul {
+    #menu li.gadget .menu-wrapper ul {
+        background: #FF0066;
+    }
+
+    #menu li.custom .menu-wrapper ul {
         background: #FFCC00;
     }
 
@@ -2594,9 +2602,9 @@ div.poweredWrapper {
 
     #menu ul .menu-button {
         float: none;
-        width: 99%;
+        width: 100%;
         height: 35px;
-        margin: 2px 0;
+        margin: 2px 0!important;
         padding: 0;
         border-radius: 4px;
         color: #FFFFFF;
@@ -2605,11 +2613,11 @@ div.poweredWrapper {
         text-align: center;
     }
 
-    #menu ul li.travestimenti,
-    #menu ul li.accessori,
     #menu ul li.pirotecnica,
+    #menu ul li.costumi,
+    #menu ul li.gadget,
     #menu ul li.news,
-    #menu ul li.info {
+    #menu ul li.custom {
         margin: 5px 0;
     }
 
@@ -2632,15 +2640,19 @@ div.poweredWrapper {
         height: auto;
     }
 
-    #menu li.travestimenti .menu-wrapper ul {
+    #menu li.pirotecnica .menu-wrapper ul {
         background: #3399CC;
     }
 
-    #menu li.accessori .menu-wrapper ul {
+    #menu li.costumi .menu-wrapper ul {
         background: #FF0066;
     }
 
-    #menu li.pirotecnica .menu-wrapper ul {
+    #menu li.gadget .menu-wrapper ul {
+        background: #FF0066;
+    }
+
+    #menu li.custom .menu-wrapper ul {
         background: #FFCC00;
     }
 
