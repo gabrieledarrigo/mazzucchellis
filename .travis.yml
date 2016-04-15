@@ -7,3 +7,4 @@ php:
     - "5.4"
     - "5.3"
     - "5.2"
+script: npm run deploy
