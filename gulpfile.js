@@ -1,10 +1,10 @@
-import gulp from 'gulp';
-import ftp from 'vynil-ftp';
-import gutil from 'gutil';
+var gulp = require('gulp');
+var ftp  = require('vinyl-ftp');
+var gutil = require('gulp-util');
 
 gulp.task('deploy', () => {
-    let remotePath = '/public_html/test_deploy';
-    let connection = ftp.create({
+    var remotePath = '/public_html/test_deploy';
+    var connection = ftp.create({
         host: process.env.FTP_HOST,
         user: process.env.FTP_USER,
         password: process.env.FTP_PASSWORD,
