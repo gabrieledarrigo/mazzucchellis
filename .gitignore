@@ -1,5 +1,7 @@
-*.log
 .htaccess
+.idea
+.DS_Store
+*.log
 sitemap.xml
 sitemap.xml.gz
 wordpress/wp-config.php
@@ -13,8 +15,4 @@ wordpress/wp-content/uploads/
 wordpress/wp-content/wp-cache-config.php
 wordpress/wp-content/plugins/hello.php
 
-/readme.html
-/license.txt
-
-.idea
-.DS_Store
+node_modules/
