@@ -42,24 +42,45 @@ get_header();
 
                     <div class="social-button-large">
                         <ul>
-                             <li>
-                                <a class="socialite facebook-like" data-send="false" data-layout="box_count" data-width="60" data-show-faces="false" data-href="<?php the_permalink(); ?>">
-                                    Share on Facebook
+                            <li>
+                                <a class="icon-facebook" rel="nofollow" href="http://www.facebook.com/"
+                                   onclick="popUp = window.open(
+                                       'http://www.facebook.com/sharer.php?u=<?php the_permalink(); ?>',
+                                       'Share on Facebook',
+                                       'scrollbars=yes,width=800,height=600');
+                                       popUp.focus();
+                                       return false">
+                                    <img src="<?php bloginfo('template_url'); ?>/img/facebook-share.png"
+                                         title="Share on Facebook" alt="Share on Facebook"/>
                                 </a>
                             </li>
                             <li>
-                                <a class="socialite twitter-share" data-url="<?php the_permalink(); ?>" data-count="vertical" data-text="<?php the_title(); ?>" data-via="Mazzucchellis" 
-                                   data-lang="it" data-related="Mazzucchellis" data-hashtags="Costumi, Maschere,  Accessori, Pirotecnica">
-                                    Share on Twitter
+                                <a class="icon-twitter" rel="nofollow" href="http://twitter.com/"
+                                   onclick="popUp = window.open(
+                                       'http://twitter.com/intent/tweet?text=\'<?php the_title(); ?>\' via @Mazzucchellis - <?php the_permalink(); ?>',
+                                       'Share on Twitter',
+                                       'scrollbars=yes,width=800,height=600');
+                                       popUp.focus();
+                                       return false">
+                                    <img src="<?php bloginfo('template_url'); ?>/img/twitter-share.png"
+                                         title="Share on Twitter" alt="Share on Twitter"/>
                                 </a>
                             </li>
                             <li>
-                                <a class="socialite googleplus-one"  data-size="tall" data-href="<?php the_permalink(); ?>">
-                                    Share on Google Plus
+                                <a class="icon-google-plus" rel="nofollow" href="http://www.plus.google.com/"
+                                   onclick="popUp = window.open(
+                                       'https://plus.google.com/share?url=<?php the_permalink(); ?>',
+                                       'Share on GooglePlus',
+                                       'scrollbars=yes,width=800,height=600');
+                                       popUp.focus();
+                                       return false">
+
+                                    <img src="<?php bloginfo('template_url'); ?>/img/google-plus-share.png"
+                                         title="Share on Google Plus" alt="Share on Google Plus"/>
                                 </a>
                             </li>
                             <li class="comment">
-                                <a class="comment-link" href="<?php get_comments_link(); ?>" title="Commenta">
+                                <a class="comment-link" href="<?php echo get_comments_link(); ?>" title="Commenta">
                                     Commenta
                                 </a>
                             </li>
