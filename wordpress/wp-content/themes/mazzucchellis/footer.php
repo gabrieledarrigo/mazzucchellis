@@ -4,13 +4,14 @@
             <h3>Categorie</h3>
             <ul>
                 <li>
-                    <a href="<?php bloginfo('url'); ?>/categoria-prodotto/travestimenti" title="Travestimenti" class="travestimenti">
-                        Travestimenti 
+                    <a href="<?php bloginfo('url'); ?>/categoria-prodotto/costumi" title="Costumi" class="costumi">
+                        Costumi
                     </a>
                 </li>
                 <li>
-                    <a href="<?php bloginfo('url'); ?>/categoria-prodotto/accessori" title="Accessori" class="accessori">
-                        Accessori </a>
+                    <a href="<?php bloginfo('url'); ?>/categoria-prodotto/gadget" title="Gadget" class="gadget">
+                        Gadget
+                    </a>
                 </li>
                 <li>  
                     <a href="<?php bloginfo('url'); ?>/categoria-prodotto/pirotecnica" title="Pirotecnica" class="pirotecnica">

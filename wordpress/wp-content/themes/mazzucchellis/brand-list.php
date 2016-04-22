@@ -2,6 +2,7 @@
     <header>
         <h2 class="brand-icon">I Nostri Brand</h2>
     </header>
+
     <?php
     $brand_args = array(
         'post_type' => 'brand'
@@ -12,7 +13,6 @@
 
     <?php if ($brand->have_posts()) : ?>
         <?php while ($brand->have_posts()) : $brand->the_post(); ?>
-    
             <article class="three columns">
                 <figure>
                     <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
@@ -24,9 +24,7 @@
                     </a>
                 </figure>
             </article>
-    
         <?php endwhile; ?>
         <?php wp_reset_postdata(); ?>
     <?php endif; ?>
-
 </section>

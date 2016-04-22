@@ -1,6 +1,4 @@
-<?php
-get_header('internal');
-?>
+<?php get_header(); ?>
 
 <hr class="blu-divider"/>
 
@@ -36,7 +34,7 @@ get_header('internal');
                         ?>
                     </ul>
                     <div class="share-this">
-                        <span>Share</span>
+                        <span>Condividi</span>
 
                         <div class="social-button-small">
                             <ul>

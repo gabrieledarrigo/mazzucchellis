@@ -1,0 +1,31 @@
+{
+  "name": "mazzucchellis",
+  "version": "1.0.0",
+  "description": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrieledarrigo/mazzucchellis.git"
+  },
+  "keywords": [
+    "wordpress",
+    "html5",
+    "css3"
+  ],
+  "author": "Gabriele D'Arrigo - darrigo.g@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrieledarrigo/mazzucchellis/issues"
+  },
+  "homepage": "https://github.com/gabrieledarrigo/mazzucchellis#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.1",
+    "gulp-util": "^3.0.7",
+    "vinyl-ftp": "^0.4.5"
+  }
+}

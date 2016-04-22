@@ -1,5 +1,5 @@
 <?php
-get_header('internal');
+get_header();
 
 $parent = get_parent_term_by_slug(get_queried_object()->slug, 'categoria-prodotto');
 
@@ -43,7 +43,7 @@ $parent->link = get_term_link((int) $parent->term_id, $parent->taxonomy);
                     </ul>
                     
                     <div class="share-this">
-                        <span>Share</span>
+                        <span>Condividi</span>
 
                         <div class="social-button-small">
                             <ul>

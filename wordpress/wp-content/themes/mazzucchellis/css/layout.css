@@ -33,7 +33,6 @@
 body {
     background: url('../img/debut_light.png') #FFFFFF repeat;
     font-family: helvetica;
-    /*    font-family: arial, helvetica, verdana, sans-serif;*/
     color: #333333;
 }
 
@@ -256,7 +255,7 @@ header h3 {
     background-color: #000000;
 }
 
-#menu ul li.accessori {
+#menu ul li.gadget {
     background: #FF0066;
     margin-left: 40px;
 }
@@ -294,11 +293,11 @@ header h3 {
     z-index: 1001;
 }
 
-#menu .travestimenti .menu-wrapper {
+#menu .costumi .menu-wrapper {
     background-color: #3399CC;
 }
 
-#menu .accessori .menu-wrapper {
+#menu .gadget .menu-wrapper {
     background-color: #FF0066;
 }
 
