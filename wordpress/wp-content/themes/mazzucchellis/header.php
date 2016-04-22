@@ -19,7 +19,7 @@
     <link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/img/favicon.ico">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/base.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/skeleton.css">
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css?ts=4">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css?ts=5">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/flexslider.css">
 
     <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
