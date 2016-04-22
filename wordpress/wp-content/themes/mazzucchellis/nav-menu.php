@@ -97,26 +97,9 @@
                         <ul>
                             <?php
                             $category = get_term_by('slug', 'gadget', $taxonomy);
-                            $allestimenti_category = get_term_by('slug', 'allestimenti', $taxonomy);
 
                             $args = array(
                                 'child_of' => $category->term_id,
-                                'title_li' => '',
-                                'exclude' => $allestimenti_category->term_id,
-                                'taxonomy' => $taxonomy,
-                            );
-
-                            wp_list_categories($args);
-                            ?>
-                        </ul>
-                    </li>
-
-                    <li class="elenco">
-                        <h2>Allestimenti</h2>
-                        <ul>
-                            <?php
-                            $args = array(
-                                'child_of' => $allestimenti_category->term_id,
                                 'title_li' => '',
                                 'taxonomy' => $taxonomy,
                             );
@@ -127,34 +110,66 @@
                     </li>
                 </ul>
 
-                <img src="<?php bloginfo('template_url'); ?>/img/icon/gadget-menu-icon.png"
-                     title="Gadget" alt="Gadget" class="menu-background"/>
+                <img src="<?php bloginfo('template_url'); ?>/img/icon/gadget-menu-icon.png" title="Gadget" alt="Gadget" class="menu-background"/>
             </div>
         </li>
 
         <li class="menu-button custom">
-            <span>
-                <?php
-                $menu = wp_get_nav_menu_object('menu-custom');
-                $custom_menu_title = '';
-                if ($menu) {
-                    $menu_items = wp_get_nav_menu_items($menu->term_id);
-                    $custom_menu_title = $menu_items[0]->title;
-                }
-                ?>
-
-                <?php echo $custom_menu_title; ?>
-            </span>
+            <span>Feste a tema</span>
 
             <div id="custom" class="menu-wrapper">
                 <ul>
                     <li class="elenco">
-                        <?php
-                        wp_nav_menu(array(
-                            'theme_location' => 'menu-custom',
-                            'container' => ' '
-                        ));
-                        ?>
+                        <h2>Kit Party</h2>
+                        <ul>
+                            <?php
+                            $category = get_term_by('slug', 'kit-party', $taxonomy);
+
+                            $args = array(
+                                'child_of' => $category->term_id,
+                                'title_li' => '',
+                                'taxonomy' => $taxonomy,
+                            );
+
+                            wp_list_categories($args);
+                            ?>
+                        </ul>
+                    </li>
+                    <li class="elenco">
+                        <ul>
+                            <h2>Allestimenti con palloncini</h2>
+                            <ul>
+                                <?php
+                                $category = get_term_by('slug', 'allestimenti-con-palloncini', $taxonomy);
+
+                                $args = array(
+                                    'child_of' => $category->term_id,
+                                    'title_li' => '',
+                                    'taxonomy' => $taxonomy,
+                                );
+
+                                wp_list_categories($args);
+                                ?>
+                            </ul>
+                        </ul>
+                    </li>
+                    <li class="elenco">
+                        <ul>
+                            <h2>Idee per feste</h2>
+                            <ul>
+                                <?php
+                                $category = get_term_by('slug', 'idee-per-feste-a-tema', $taxonomy);
+
+                                $args = array(
+                                    'child_of' => $category->term_id,
+                                    'title_li' => '',
+                                    'taxonomy' => $taxonomy,
+                                );
+
+                                wp_list_categories($args);
+                                ?>
+                            </ul>
+                        </ul>
                     </li>
                 </ul>
 
