@@ -3,7 +3,7 @@ var ftp  = require('vinyl-ftp');
 var gutil = require('gulp-util');
 
 gulp.task('deploy', () => {
-    var remotePath = '/public_html/test_deploy';
+    var remotePath = '/public_html/wordpress/wp-content/themes/mazzucchellis';
     var connection = ftp.create({
         host: process.env.FTP_HOST,
         user: process.env.FTP_USER,
@@ -12,7 +12,7 @@ gulp.task('deploy', () => {
     });
 
     gulp.src([
-            'wordpress/**',
+            'wordpress//wp-content/themes/mazzucchellis/**',
             '!*.log',
             '!.htaccess',
             '!.idea',

@@ -3,8 +3,8 @@
         <ul class="slides">
             <?php
             $slideshow_args = array(
-                'post_type' => 'slideshow'
-            , 'posts_per_page' => 4
+                'post_type' => 'slideshow',
+                'posts_per_page' => 4
             );
             $post_slideshow = new WP_Query($slideshow_args);
             ?>

@@ -34,7 +34,7 @@
                         ?>
                     </ul>
                     <div class="share-this">
-                        <span>Share</span>
+                        <span>Condividi</span>
 
                         <div class="social-button-small">
                             <ul>
