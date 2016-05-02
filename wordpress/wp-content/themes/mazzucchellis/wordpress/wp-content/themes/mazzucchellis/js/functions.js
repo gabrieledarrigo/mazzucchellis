@@ -58,7 +58,6 @@ $(document).ready(function() {
         $(this).find('.social-button-small').fadeOut();
     });
 
-
     // Form Submit.
     $("#frmContatti").submit(function() {
         var name = $('#inptNome').val();
