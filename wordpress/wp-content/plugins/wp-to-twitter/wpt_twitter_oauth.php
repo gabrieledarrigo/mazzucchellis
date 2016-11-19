@@ -256,6 +256,7 @@ if ( ! class_exists( 'wpt_TwitterOAuth' ) ) {
 				$transport = 'wp_http';
 				$binary    = wp_remote_retrieve_body( $remote );
 			}
+			wpt_mail( 'Media fetched binary', print_r( $remote, 1 ) . "\n\n" . print_r( $binary, 1 ) );
 			if ( !$binary ) {
 				return;
 			}
@@ -346,8 +347,6 @@ if ( ! class_exists( 'wpt_TwitterOAuth' ) ) {
 					$url      = $req->get_normalized_http_url();
 					$args     = wp_parse_args( $req->to_postdata() );
 					$response = wp_remote_post( $url, array( 'body' => $args, 'timeout' => 30 ) );
-								//wp_mail( 'joe@joedolson.com', 'req results', print_r( $req, 1 ) );
-								//wp_mail( 'joe@joedolson.com', 'post response', print_r( $response, 1 ) );
 					break;				
 			}
 

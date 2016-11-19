@@ -2,21 +2,21 @@
 get_header();
 
 $parent = get_parent_term_by_slug(get_queried_object()->slug, 'categoria-prodotto');
-
 $parent->link = get_term_link((int) $parent->term_id, $parent->taxonomy);
 ?>
 
 <hr class="blu-divider"/>
 
 <section id="category" class="container">
-
-    <header class="sixteen columns clearfix">
-        <h2 class="<?php echo $parent->slug; ?>-icon">
-            <a href="<?php echo $parent->link; ?>">
-                <?php echo single_cat_title(); ?>
-            </a>
-        </h2>
-    </header>
+    <?php if(!is_wp_error($parent)) :?>
+        <header class="sixteen columns clearfix">
+            <h2 class="<?php echo $parent->slug; ?>-icon">
+                <a href="<?php echo $parent->link; ?>">
+                    <?php echo single_cat_title(); ?>
+                </a>
+            </h2>
+        </header>
+    <?php endif; ?>
 
     <br class="clear"/>
 
