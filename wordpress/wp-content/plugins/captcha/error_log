@@ -1,0 +1,2 @@
+[22-Sep-2016 10:49:49 Europe/Berlin] PHP Fatal error:  Call to undefined function get_option() in /home/dpehzsiv/public_html/wordpress/wp-content/plugins/captcha/captcha.php on line 2037
+[22-Sep-2016 10:49:49 Europe/Berlin] PHP Fatal error:  Call to undefined function get_option() in /home/dpehzsiv/public_html/wordpress/wp-content/plugins/captcha/captcha.php on line 2037

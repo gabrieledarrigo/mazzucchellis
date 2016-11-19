@@ -122,8 +122,8 @@ if ( !class_exists( 'All_in_One_SEO_Pack_Robots' ) ) {
 					}
 					$access = ( get_option('blog_public') ) ? 'allow' : 'block';
 					if ( $access ) {
-						$allow_rule = "User-agent: *\nDisallow: /wp-admin/\nDisallow: /wp-includes/\nDisallow: /xmlrpc.php\n\n";
-						$block_rule = "User-agent: *\nDisallow: /\n\n";
+						$allow_rule = "Sitemap: \n\n# global\nUser-agent: *\nDisallow: /xmlrpc.php\n\n";
+						$block_rule = "# global\nUser-agent: *\nDisallow: /\n\n";
 						if ( empty( $options[$prefix . 'robotgen'] ) ) $options[$prefix . 'robotgen'] = '';
 						if ( isset( $_POST['Submit_Preview'] ) && ( ( $options[$prefix . 'robotgen'] == $allow_rule ) ||
 							 ( $options[$prefix . 'robotgen'] == $block_rule ) ) )

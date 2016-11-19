@@ -8638,3 +8638,8 @@
 [26-Jan-2014 08:05:54 UTC] PHP Notice:  Undefined index: path in /home/dpehzsiv/public_html/wordpress/wp-content/plugins/google-sitemap-generator/sitemap-core.php on line 786
 [26-Jan-2014 08:05:54 UTC] PHP Notice:  Undefined index: path in /home/dpehzsiv/public_html/wordpress/wp-content/plugins/google-sitemap-generator/sitemap-core.php on line 786
 [26-Jan-2014 08:05:54 UTC] PHP Notice:  Undefined index: path in /home/dpehzsiv/public_html/wordpress/wp-content/plugins/google-sitemap-generator/sitemap-core.php on line 786
+[20-Oct-2016 14:18:14 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /home/dpehzsiv/public_html/wordpress/concorso-backend.php on line 30
+[20-Oct-2016 14:18:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /home/dpehzsiv/public_html/wordpress/concorso-backend.php on line 30
+[20-Oct-2016 14:18:18 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /home/dpehzsiv/public_html/wordpress/concorso-backend.php on line 30
+[20-Oct-2016 14:18:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /home/dpehzsiv/public_html/wordpress/concorso-backend.php on line 30
+[20-Oct-2016 14:18:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in /home/dpehzsiv/public_html/wordpress/concorso-backend.php on line 30

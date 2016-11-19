@@ -3,8 +3,8 @@ Contributors: hallsofmontezuma, wpsmort, dougal, pbaylies, arnaudbroes
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mrtorbert%40gmail%2ecom&item_name=All%20In%20One%20SEO%20Pack&item_number=Support%20Open%20Source&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
 Tags: seo, SEO, all in one seo, widget, Post, plugin, admin, posts, shortcode, sidebar, google, twitter, page, images, comments, image, social, search engine optimization, sitemap, WordPress SEO, meta, meta description, xml sitemap, xml sitemaps, google sitemap, sitemaps, robots meta, rss, rss footer, yahoo, bing, news sitemaps, XML News Sitemaps, multisite, canonical, nofollow, noindex, keywords, meta keywords, description, webmaster tools, google webmaster tools, google analytics, seo pack
 Requires at least: 3.3
-Tested up to: 4.4
-Stable tag: 2.3.2.3
+Tested up to: 4.5
+Stable tag: 2.3.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -109,6 +109,14 @@ Please visit our complete **[Documentation](http://semperplugins.com/documentati
 
 
 == Upgrade Notice ==
+
+= 2.3 =
+
+-Various under the hood improvements
+-Increased WooCommerce support, especially in pro version
+-New SEO data importer
+-New custom roles and capabilities for multi-user sites
+-API improvements
 
 = 2.2.7.6.2 =
 

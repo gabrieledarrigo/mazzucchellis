@@ -2,23 +2,127 @@
 # This file is distributed under the same license as the Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-03-23 20:56:41+0000\n"
+"PO-Revision-Date: 2016-04-24 07:58:18+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.1.0-alpha\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
 "Project-Id-Version: Stable (latest release)\n"
+
+#: admin/meta_import.php:65 admin/meta_import.php:70
+msgid "Sorry, you can't do that. Please choose a platform and then click Analyze or Convert."
+msgstr "Non puoi farlo. Scegli una piattaforma e poi fai clic su Analizza o Converti."
+
+#: admin/meta_import.php:172
+msgid "Analyze"
+msgstr "Analizza"
+
+#: admin/meta_import.php:173
+msgid "Convert"
+msgstr "Converti"
+
+#: aioseop_class.php:398
+msgid "Capitalize Tag and Search Titles:"
+msgstr "Capitalizza tag e titoli di ricerca :"
+
+#: aioseop_class.php:1224
+msgid "New in 2.4: Improved support for taxonomies, Woocommerce and massive performance improvements under the hood! Please review your settings on each options page!"
+msgstr "Novità in 2.4: supporto per le tassonomie migliorato, Woocommerce e prestazioni di massa migliorate! Rivedi le impostazioni in ogni pagina delle opzioni! "
+
+#: admin/meta_import.php:160
+msgid "Themes"
+msgstr "Temi"
+
+#: admin/meta_import.php:132
+msgid "Use the drop down below to choose which plugin or theme you wish to import SEO data from."
+msgstr "Utilizza il menù a discesa in basso per scegliere da quale plugin o tema desideri importare i dati SEO."
+
+#: admin/meta_import.php:134
+msgid "Click \"Analyze\" for a list of SEO data that can be imported into All in One SEO Pack, along with the number of records that will be imported."
+msgstr "Fai clic su \"Analizza\" per avere la lista di dati SEO che possono essere importati in All in One SEO Pack, insieme al numero di record che verrà importato."
+
+#: admin/meta_import.php:136
+msgid "Please Note: "
+msgstr "Nota:"
+
+#: admin/meta_import.php:136
+msgid "Some plugins and themes do not share similar data, or they store data in a non-standard way. If we cannot import this data, it will remain unchanged in your database. Any compatible SEO data will be displayed for you to review. If a post or page already has SEO data in All in One SEO Pack, we will not import data from another plugin/theme."
+msgstr "Alcuni plugin e temi non condividono dati simili, oppure tali dati vengono conservati in modi non standard. Se non fossimo in grado di importare questi dati, resteranno invariati nel tuo database. Tutti i dati SEO compatibili verranno mostrati per permetterti di revisionarli. Se un articolo o una pagina ha già dati SEO di All in One SEO Pack, non importeremo dati da altri plugin/temi."
+
+#: admin/meta_import.php:138
+msgid "Click \"Convert\" to perform the import. After the import has completed, you will be alerted to how many records were imported, and how many records had to be ignored, based on the criteria above."
+msgstr "Fai clic su \"Converti\" per effettuare l'importazione. Una volta che l'importazione sarà completata, verrai avvistato su quanti record sono stati importati e su quanti record sono stati ignorati, in base ai criteri mostrati sopra."
+
+#: admin/meta_import.php:140
+msgid "Before performing an import, we strongly recommend that you make a backup of your site. We use and recommend %s BackupBuddy %s for backups."
+msgstr "Prima di eseguire un'importazione, ti suggeriamo caldamente di fare un backup del sito. Noi utilizziamo e suggeriamo %s BackupBuddy %s per i tuoi backup."
+
+#: admin/meta_import.php:150
+msgid "Import SEO data from:"
+msgstr "Importa dati SEO da:"
+
+#: admin/meta_import.php:152
+msgid "Choose platform:"
+msgstr "Scegli una piattaforma:"
+
+#: admin/meta_import.php:154
+msgid "Plugins"
+msgstr "Plug-in"
+
+#: admin/meta_import.php:78
+msgid "Analysis Results"
+msgstr "Risultati dell'analisi"
+
+#: admin/meta_import.php:82 admin/meta_import.php:104
+msgid "Sorry, something went wrong. Please try again"
+msgstr "Qualcosa è andato storto. Prova di nuovo."
+
+#: admin/meta_import.php:86
+msgid "<p>Analyzing records in a %s to %s conversion&hellip;"
+msgstr "<p>Stiamo analizzando i dati in %s per la conversione in %s &hellip;"
+
+#: admin/meta_import.php:90
+msgid "Compatible data:"
+msgstr "Dati compatibili:"
+
+#: admin/meta_import.php:100
+msgid "Conversion Results"
+msgstr "Risultati della conversione"
+
+#: admin/meta_import.php:130
+msgid "Import SEO Settings"
+msgstr "Importa le impostazioni SEO"
+
+#: admin/meta_import.php:23
+msgid "The plugin Yoast SEO has been detected. Do you want to %simport its settings%s into All in One SEO Pack?"
+msgstr "È stato rilevato il plugin Yoast SEO.  Desideri %simportare le sue impostazioni%s in All in One SEO Pack? "
+
+#: admin/meta_import.php:28
+msgid "The plugin All-In-One-SEO has been detected. Do you want to %simport its settings%s?"
+msgstr "È stato rilevato il plugin All-In-One-SEO. Desideri %simportare le sue impostazioni%s?"
+
+#: admin/meta_import.php:35
+msgid "All in One SEO has been deactivated"
+msgstr "All in one SEO è stato disattivato "
+
+#: admin/meta_import.php:50
+msgid "Import SEO Data"
+msgstr "Importa i dati SEO"
+
+#: admin/meta_import.php:50
+msgid "SEO Data Import"
+msgstr "Importazione di dati SEO"
 
 #: modules/aioseop_feature_manager.php:49
 msgid "Pro Version Only"
 msgstr "Solo versione a pagamento"
 
-#: aioseop_class.php:1925
+#: aioseop_class.php:1769
 msgid "We've detected you're running WooCommerce."
 msgstr "Abbiamo rilevato che stai usando WooCommerce. "
 
-#: aioseop_class.php:1926
+#: aioseop_class.php:1770
 msgid "%s Upgrade%s to All in One SEO Pack Pro for increased SEO compatibility for your products."
 msgstr "%s Aggiornamento %s a All in One SEO Pack Pro per una maggiore compatibilità SEO dei tuoi prodotti."
 
@@ -106,7 +210,7 @@ msgstr "Non hai accesso a questa pagina; prova ad autenticarti come amministrato
 msgid "Scan"
 msgstr "Scansiona"
 
-#: all_in_one_seo_pack.php:235
+#: all_in_one_seo_pack.php:225
 msgid "Amazon Wishlist"
 msgstr "Lista dei desideri di Amazon"
 
@@ -122,43 +226,39 @@ msgstr "Analizza gli articoli per trovare video"
 msgid "Restrict Access to Video Sitemap"
 msgstr "Limita l'accesso alla sitemap video"
 
-#: all_in_one_seo_pack.php:215
+#: all_in_one_seo_pack.php:279
 msgid "Upgrade to Pro"
 msgstr "Aggiorna alla versione Pro"
 
-#: all_in_one_seo_pack.php:204
+#: all_in_one_seo_pack.php:268
 msgid "Documentation"
 msgstr "Documentazione"
 
-#: all_in_one_seo_pack.php:194
+#: all_in_one_seo_pack.php:258
 msgid "SEO Settings"
 msgstr "Impostazioni SEO"
 
-#: aioseop_class.php:1258
+#: aioseop_class.php:1193
 msgid "%taxonomy_title% - The original title of the taxonomy"
 msgstr "%taxonomy_title% - Il titolo originale della tassonomia"
 
-#: aioseop_class.php:1259
+#: aioseop_class.php:1194
 msgid "%taxonomy_description% - The description of the taxonomy"
 msgstr "%taxonomy_description% - La descrizione della tassonomia"
 
-#: aioseop_class.php:1282
+#: aioseop_class.php:1217
 msgid "Thank you for running the latest and greatest All in One SEO Pack Pro ever! Please review your settings, as we're always adding new features for you!"
 msgstr "Grazie per usare l'ultimo e migliore All in One SEO Pack Pro di sempre! Controlla le tue impostazioni, aggiungiamo sempre nuove funzionalità per te!"
 
-#: aioseop_class.php:1289
-msgid "New in 2.3: improved support for taxonomies and a Video Sitemap module; enable modules from our feature manager! And please review your settings, we have added some new ones!"
-msgstr "Novità in 2.3: supporto per le tassonomie migliorato e modulo per la video sitemap; abilita i moduli dal nostro gestore delle funzionalità! Dai un'occhiata alle tue impostazioni, ne abbiamo aggiunte delle nuove!"
-
-#: aioseop_class.php:1574
+#: admin/display/general-metaboxes.php:75
 msgid "We need your help translating All in One SEO Pack into your language! Click Here to help make the translation complete and fix any errors."
 msgstr "Ci serve il tuo aiuto per tradurre All in One SEO Pack nella tua lingua! Fai clic qui per aiutare a completare la traduzione ed a correggere gli errori."
 
-#: aioseop_class.php:2118
+#: aioseop_class.php:1962
 msgid "Debug String"
 msgstr "Stringa di debug"
 
-#: aioseop_class.php:3648
+#: aioseop_class.php:3477
 msgid "About"
 msgstr "Riguardo a"
 
@@ -166,11 +266,11 @@ msgstr "Riguardo a"
 msgid "SEO on only these taxonomies:"
 msgstr "SEO solo su queste tassonomie:"
 
-#: aioseop_class.php:714 all_in_one_seo_pack.php:199
+#: aioseop_class.php:713 all_in_one_seo_pack.php:263
 msgid "Support Forum"
 msgstr "Forum di supporto"
 
-#: aioseop_class.php:1250
+#: aioseop_class.php:1185
 msgid "Taxonomy Title Format:"
 msgstr "Formato del titolo della tassonomia:"
 
@@ -186,11 +286,11 @@ msgstr "Usa queste caselle per selezionare con quali tassonomie vuoi usare All i
 msgid "License Key:"
 msgstr "Chiave di licenza:"
 
-#: aioseop_class.php:1903
+#: aioseop_class.php:1747
 msgid "Warning: You're blocking access to search engines."
 msgstr "Attenzione: stai bloccando l'accesso ai motori di ricerca. "
 
-#: aioseop_class.php:1904
+#: aioseop_class.php:1748
 msgid "You can %s click here%s to go to your reading settings and toggle your blog visibility."
 msgstr "Puoi %s fare clic qui%s per andare alle impostazioni di lettura e attivare la visibilità del tuo blog. "
 
@@ -567,10 +667,6 @@ msgstr "file '%s' in modo statico"
 msgid "Updated sitemap settings."
 msgstr "Impostazioni sitemap aggiornate."
 
-#: all_in_one_seo_pack.php:50
-msgid "%s detected a conflict; please deactivate the plugin located in %s."
-msgstr "%s ha trovato un conflitto; disattivare il plugin situato in %s."
-
 #. Plugin Name of the plugin/theme
 msgid "All In One SEO Pack"
 msgstr "All In One SEO Pack"
@@ -587,179 +683,179 @@ msgstr "Michael Torbert"
 msgid "http://michaeltorbert.com"
 msgstr "http://michaeltorbert.com"
 
-#: aioseop_class.php:795
+#: aioseop_class.php:789
 msgid "Noindex Settings"
 msgstr "Impostazioni Noindex"
 
-#: aioseop_class.php:800
+#: aioseop_class.php:794
 msgid "Advanced Settings"
 msgstr "Impostazioni avanzate"
 
-#: aioseop_class.php:1199
+#: aioseop_class.php:1134
 msgid "Front Page"
 msgstr "Pagina iniziale"
 
-#: aioseop_class.php:1199
+#: aioseop_class.php:1134
 msgid "Everywhere Else"
 msgstr "Altrove"
 
-#: aioseop_class.php:1207
+#: aioseop_class.php:1142
 msgid "Title Format:"
 msgstr "Formato del titolo:"
 
-#: aioseop_class.php:1215
+#: aioseop_class.php:1150
 msgid "%post_title% - The original title of the post."
 msgstr "%post_title% - Il titolo originale dell`articolo."
 
-#: aioseop_class.php:1219
+#: aioseop_class.php:1154
 msgid "%%tax_%s%% - This post's associated %s taxonomy title"
 msgstr "%%tax_%s%% - Titolo tassonomia %s associato a questo articolo."
 
-#: aioseop_class.php:1281 aioseop_class.php:1298
+#: aioseop_class.php:1216 aioseop_class.php:1233
 msgid "Welcome to Version %s!"
 msgstr "Benvenuti alla versione %s!"
 
-#: aioseop_class.php:1299
+#: aioseop_class.php:1234
 msgid "Thank you for running the latest and greatest All in One SEO Pack ever! Please review your settings, as we're always adding new features for you!"
 msgstr "Grazie per utilizzare l`ultimo e più grande All in One SEO Pack di sempre! Dai un`occhiata alle tue impostazioni, dato che aggiungiamo sempre nuove funzionalità per te!"
 
-#: aioseop_class.php:1288 aioseop_class.php:1305
+#: aioseop_class.php:1223 aioseop_class.php:1240
 msgid "Review Your Settings"
 msgstr "Rivedi le impostazioni"
 
-#: aioseop_class.php:1306
+#: aioseop_class.php:1241
 msgid "Thank you for running the latest and greatest All in One SEO Pack ever! New since 2.2: Control who accesses your site with the new Robots.txt Editor and File Editor modules!  Enable them from the Feature Manager.  Remember to review your settings, we have added some new ones!"
 msgstr "Grazie per utilizzare l`ultimo e più grande All in One SEO Pack di sempre! Novità dalla versione 2.2: Controlla chi accede al tuo sito con i nuovi muduli Editor di File ed Editor di Robots.txt! Attivali dal Gestore delle Funzionalità. Ricorda di controllare le tue impostazioni, ne abbiamo aggiunte di nuove!"
 
-#: aioseop_class.php:1326
+#: aioseop_class.php:1261
 msgid "Reset General Settings to Defaults"
 msgstr "Ripristina le Impostazioni generali predefinite "
 
-#: aioseop_class.php:1327
+#: aioseop_class.php:1262
 msgid "Reset ALL Settings to Defaults"
 msgstr "Resetta TUTTE le Impostazioni alle Predefinite"
 
-#: aioseop_class.php:1444
+#: aioseop_class.php:1379
 msgid "Default - noindex"
 msgstr "Predefinito - noindex"
 
-#: aioseop_class.php:1444
+#: aioseop_class.php:1379
 msgid "index"
 msgstr "index"
 
-#: aioseop_class.php:1444
+#: aioseop_class.php:1379
 msgid "noindex"
 msgstr "noindex"
 
-#: aioseop_class.php:1448
+#: aioseop_class.php:1383
 msgid "Default - nofollow"
 msgstr "Predefinito - nofollow"
 
-#: aioseop_class.php:1448
+#: aioseop_class.php:1383
 msgid "follow"
 msgstr "segui"
 
-#: aioseop_class.php:1448
+#: aioseop_class.php:1383
 msgid "nofollow"
 msgstr "non seguire"
 
-#: aioseop_class.php:1452
+#: aioseop_class.php:1387
 msgid "Default - noodp"
 msgstr "Predefinito - noodp"
 
-#: aioseop_class.php:1452
+#: aioseop_class.php:1387
 msgid "odp"
 msgstr "odp"
 
-#: aioseop_class.php:1452
+#: aioseop_class.php:1387
 msgid "noodp"
 msgstr "noodp"
 
-#: aioseop_class.php:1456
+#: aioseop_class.php:1391
 msgid "Default - noydir"
 msgstr "Predefinito - noydir"
 
-#: aioseop_class.php:1456
+#: aioseop_class.php:1391
 msgid "ydir"
 msgstr "ydir"
 
-#: aioseop_class.php:1456
+#: aioseop_class.php:1391
 msgid "noydir"
 msgstr "noydir"
 
-#: aioseop_class.php:1522
+#: admin/display/general-metaboxes.php:25
 msgid "by %s of %s."
 msgstr "da %s di %s."
 
-#: aioseop_class.php:1533
+#: admin/display/general-metaboxes.php:36
 msgid "Reset Dismissed Notices"
 msgstr "Reimposta le notifiche respinte"
 
-#: aioseop_class.php:1538
+#: admin/display/general-metaboxes.php:41
 msgid "Pro Version"
 msgstr "Versione a pagamento"
 
-#: aioseop_class.php:1540
+#: admin/display/general-metaboxes.php:41 aioseop_class.php:709
 msgid "UPGRADE TO PRO VERSION"
 msgstr "PASSA ALLA VERSIONE A PAGAMENTO"
 
-#: aioseop_class.php:1562 all_in_one_seo_pack.php:230
+#: admin/display/general-metaboxes.php:63 all_in_one_seo_pack.php:220
 msgid "Donate"
 msgstr "Dona "
 
-#: aioseop_class.php:1564
+#: admin/display/general-metaboxes.php:65
 msgid "Donate with Paypal"
 msgstr "Fai una donazione con Paypal"
 
-#: aioseop_class.php:1566
+#: admin/display/general-metaboxes.php:67
 msgid "My Amazon Wish List"
 msgstr "La mia Lista dei Desideri di Amazon"
 
-#: aioseop_class.php:1569
+#: admin/display/general-metaboxes.php:70
 msgid "Follow us on Facebook"
 msgstr "Seguici su Facebook"
 
-#: aioseop_class.php:1570
+#: admin/display/general-metaboxes.php:71
 msgid "Follow us on Twitter"
 msgstr "Seguici su Twitter"
 
-#: aioseop_class.php:1586
+#: admin/display/general-metaboxes.php:87
 msgid "Join our mailing list for tips, tricks, and WordPress secrets."
 msgstr "Iscriviti alla nostra mailing list per suggerimenti, trucchi, e segreti su WordPress."
 
-#: aioseop_class.php:1587
+#: admin/display/general-metaboxes.php:88
 msgid "Sign up today and receive a free copy of the e-book 5 SEO Tips for WordPress ($39 value)."
 msgstr "Registrandoti oggi ricevi subito una copia dell`e-book 5 SEO Tips for WordPress (del valore di 39 EURO) gratuitamente."
 
-#: aioseop_class.php:1596
+#: admin/display/general-metaboxes.php:97
 msgid "Read the All in One SEO Pack user guide"
 msgstr "Leggi la guida utente di All in One SEO Pack"
 
-#: aioseop_class.php:1597
+#: admin/display/general-metaboxes.php:98
 msgid "All in One SEO Pro Plugin Support Forum"
 msgstr "Forum del Supporto al Plugin All in One SEO Pro"
 
-#: aioseop_class.php:1598
+#: admin/display/general-metaboxes.php:99
 msgid "Access our Premium Support Forums"
 msgstr "Accedi al nostro Forum di Supporto Premium"
 
-#: aioseop_class.php:1599
+#: admin/display/general-metaboxes.php:100
 msgid "All in One SEO Pro Plugin Changelog"
 msgstr "Changelog di All in One SEO Pro Plugin"
 
-#: aioseop_class.php:1600
+#: admin/display/general-metaboxes.php:101
 msgid "View the Changelog"
 msgstr "Visualizza il Changelog"
 
-#: aioseop_class.php:1601
+#: admin/display/general-metaboxes.php:102
 msgid "Watch video tutorials"
 msgstr "Guarda i video tutorial"
 
-#: aioseop_class.php:1602
+#: admin/display/general-metaboxes.php:103
 msgid "Getting started? Read the Beginners Guide"
 msgstr "Sei agli inizi? Leggi la Guida per Principianti"
 
-#: aioseop_class.php:2097
+#: aioseop_class.php:1941
 msgid "Debug Warning: All in One SEO Pack meta data was included again from %s filter. Called %s times!"
 msgstr "Allerta Debug: I meta data di All in One SEO Pack sono stati inclusi nuovamente dal filtro %s. Eseguito %s volte!"
 
@@ -779,49 +875,49 @@ msgstr "Connetti Con Google Analytics"
 msgid "Google Analytics"
 msgstr "Google Analytics"
 
-#: aioseop_class.php:3490
+#: aioseop_class.php:3320
 msgid "SEO"
 msgstr "SEO"
 
-#: aioseop_class.php:3497
+#: aioseop_class.php:3331
 msgid "Edit SEO"
 msgstr "Modifica SEO"
 
-#: aioseop_class.php:3504
+#: aioseop_class.php:3323
 msgid "Upgrade To Pro"
 msgstr "Passa alla versione a pagamento"
 
-#: aioseop_class.php:3562
+#: aioseop_class.php:3393
 msgid "All in One SEO"
 msgstr "All in One SEO"
 
-#: aioseop_class.php:3606
+#: aioseop_class.php:3437
 msgid "Thank you!"
 msgstr "Grazie!"
 
-#: aioseop_class.php:3607
+#: aioseop_class.php:3438
 msgid "Thank you for your donation, it helps keep this plugin free and actively developed!"
 msgstr "Grazie per aver effettuato una donazione, questo ci aiuta a mantenere il programma gratuito e sempre aggiornato."
 
-#: aioseop_class.php:3646
+#: aioseop_class.php:3475
 msgid "Join Our Mailing List"
 msgstr "Iscriviti alla nostra Mailing List"
 
-#: aioseop_class.php:3652
+#: aioseop_class.php:3481
 msgid "Support"
 msgstr "Supporto"
 
-#: aioseop_class.php:3652
+#: aioseop_class.php:3481
 msgid "Version"
 msgstr "Versione"
 
-#: admin/aioseop_module_class.php:1448 admin/aioseop_module_class.php:1638
-#: admin/aioseop_module_class.php:1833 aioseop_class.php:3675
-#: aioseop_class.php:3687
+#: admin/aioseop_module_class.php:1449 admin/aioseop_module_class.php:1639
+#: admin/aioseop_module_class.php:1834 aioseop_class.php:3504
+#: aioseop_class.php:3516
 msgid "Help"
 msgstr "Aiuto"
 
-#: aioseop_class.php:3699
+#: aioseop_class.php:3528
 msgid "Main Settings"
 msgstr "Impostazioni principali"
 
@@ -1088,31 +1184,31 @@ msgstr "<b>Attenzione:</b> impossibile trovare il seguente articolo: <b>\"%s\"</
 msgid "Settings export file for All in One SEO Pack"
 msgstr "File di esportazione delle impostazioni per All in One SEO Pack"
 
-#: admin/aioseop_module_class.php:1210
+#: admin/aioseop_module_class.php:1208
 msgid "Click here for documentation on this setting"
 msgstr "Fai clic qui per la documentazione su questa impostazione"
 
-#: admin/aioseop_module_class.php:1585
+#: admin/aioseop_module_class.php:1586
 msgid " characters. Most search engines use a maximum of %s chars for the %s."
 msgstr "caratteri. La maggior parte dei motori di ricerca utilizza un massimo di %s caratteri per %s."
 
-#: admin/aioseop_module_class.php:1611
+#: admin/aioseop_module_class.php:1612
 msgid "Click for Help!"
 msgstr "Clicca per Ricevere Aiuto!"
 
-#: admin/aioseop_module_class.php:1756 modules/aioseop_sitemap.php:510
+#: admin/aioseop_module_class.php:1757 modules/aioseop_sitemap.php:510
 msgid "Security Check - If you receive this in error, log out and back in to WordPress"
 msgstr "Controllo di Sicurezza - Se ricevi questo per errore, esegui nuovamente l`accesso a WordPress dopo esserti disconnesso."
 
-#: admin/aioseop_module_class.php:1758
+#: admin/aioseop_module_class.php:1759
 msgid "Options Reset."
 msgstr "Reset delle Opzioni."
 
-#: admin/aioseop_module_class.php:1767
+#: admin/aioseop_module_class.php:1768
 msgid "All in One SEO Options Updated."
 msgstr "Opzioni di All in One SEO Aggiornate."
 
-#: admin/aioseop_module_class.php:1813
+#: admin/aioseop_module_class.php:1814
 msgid "Update Options"
 msgstr "Aggiorna opzioni"
 
@@ -1700,19 +1796,19 @@ msgstr "Pagina Iniziale Blog individuata, il Tipo di Oggetto Facebook suggerito 
 msgid "Default "
 msgstr "Predefinito"
 
-#: modules/aioseop_opengraph.php:427
+#: modules/aioseop_opengraph.php:432
 msgid "Scan Now"
 msgstr "Scansiona Adesso"
 
-#: modules/aioseop_opengraph.php:428
+#: modules/aioseop_opengraph.php:433
 msgid "Scan your site for duplicate social meta tags."
 msgstr "Scansiona il tuo sito per doppioni dei meta tag dei social."
 
-#: modules/aioseop_opengraph.php:873
+#: modules/aioseop_opengraph.php:878
 msgid "Object Type"
 msgstr "Tipo di Oggetto"
 
-#: modules/aioseop_opengraph.php:880
+#: modules/aioseop_opengraph.php:885
 msgid "Choose a default value that best describes the content of your post type."
 msgstr "Scegli un valore predefinito per descrivere meglio i contenuti del tuo tipo di articolo."
 
@@ -2055,7 +2151,7 @@ msgstr "%404_title% - Input aggiuntivo titolo 404\""
 msgid "This string gets appended/prepended to titles of paged index pages (like home or archive pages)."
 msgstr "Questa stringa viene allegata prima o dopo i titoli delle pagine indice impaginate (come pagine home o archivio)."
 
-#: aioseop_class.php:170 aioseop_class.php:1212 aioseop_class.php:1255
+#: aioseop_class.php:170 aioseop_class.php:1147 aioseop_class.php:1190
 msgid "The following macros are supported:"
 msgstr "Sono supportate le seguenti macro:"
 
@@ -2429,10 +2525,6 @@ msgstr "Forza Riscrittura:"
 msgid "Use Original Title:"
 msgstr "Usa il Titolo Originale:"
 
-#: aioseop_class.php:398
-msgid "Capitalize Titles:"
-msgstr ""
-
 #: aioseop_class.php:400
 msgid "Capitalize Category Titles:"
 msgstr "Titoli Categorie in Maiuscolo:"
@@ -2733,91 +2825,91 @@ msgstr "Header di Pagina degli Articoli Addizionali:"
 msgid "Log important events:"
 msgstr "Registra gli eventi importanti:"
 
-#: aioseop_class.php:710
+#: aioseop_class.php:709
 msgid "Upgrade to All in One SEO Pack Pro Version"
 msgstr "Passa alla vesione All in One SEO Pack Pro"
 
-#: aioseop_class.php:716
+#: aioseop_class.php:715
 msgid "Preview Snippet"
 msgstr "Anteprima Snippet"
 
-#: aioseop_class.php:729 modules/aioseop_opengraph.php:210
+#: aioseop_class.php:728 modules/aioseop_opengraph.php:210
 msgid "Title"
 msgstr "Titolo"
 
-#: aioseop_class.php:730 modules/aioseop_opengraph.php:212
+#: aioseop_class.php:729 modules/aioseop_opengraph.php:212
 msgid "Description"
 msgstr "Descrizione"
 
-#: aioseop_class.php:732
+#: aioseop_class.php:731
 msgid "Keywords (comma separated)"
 msgstr "Parole Chiave (separate da virgole)"
 
-#: aioseop_class.php:733
+#: aioseop_class.php:732
 msgid "Custom Canonical URL"
 msgstr "URL Canonical Personalizzato"
 
-#: aioseop_class.php:734
+#: aioseop_class.php:733
 msgid "Robots Meta NOINDEX"
 msgstr "Meta dei Robot NOINDEX"
 
-#: aioseop_class.php:735
+#: aioseop_class.php:734
 msgid "Robots Meta NOFOLLOW"
 msgstr "Meta dei Robot NOFOLLOW"
 
-#: aioseop_class.php:736
+#: aioseop_class.php:735
 msgid "Robots Meta NOODP"
 msgstr "Meta dei Robot NOODP"
 
-#: aioseop_class.php:737
+#: aioseop_class.php:736
 msgid "Robots Meta NOYDIR"
 msgstr "Meta dei Robot NOYDIR"
 
-#: aioseop_class.php:738
+#: aioseop_class.php:737
 msgid "Title Attribute"
 msgstr "Attributi del Titolo"
 
-#: aioseop_class.php:739
+#: aioseop_class.php:738
 msgid "Menu Label"
 msgstr "Etichetta di Menù"
 
-#: aioseop_class.php:740
+#: aioseop_class.php:739
 msgid "Exclude From Sitemap"
 msgstr "Escludi dalla Sitemap"
 
-#: aioseop_class.php:741
+#: aioseop_class.php:740
 msgid "Disable on this page/post"
 msgstr "Disattiva su questo articolo/pagina"
 
-#: aioseop_class.php:742
+#: aioseop_class.php:741
 msgid "Disable Google Analytics"
 msgstr "Disattiva Google Analytics"
 
-#: aioseop_class.php:757 modules/aioseop_opengraph.php:272
+#: aioseop_class.php:756 modules/aioseop_opengraph.php:272
 msgid "Home Page Settings"
 msgstr "Impostazioni della Home Page"
 
-#: aioseop_class.php:762
+#: aioseop_class.php:799
 msgid "Keyword Settings"
 msgstr "Impostazioni delle Parole Chiave"
 
-#: aioseop_class.php:767
+#: aioseop_class.php:761
 msgid "Title Settings"
 msgstr "Impostazioni del Titolo"
 
-#: aioseop_class.php:773
+#: aioseop_class.php:767
 msgid "Custom Post Type Settings"
 msgstr "Impostazioni dei Tipi di Articolo Personalizzati"
 
-#: aioseop_class.php:778
+#: aioseop_class.php:772
 msgid "Display Settings"
 msgstr "Impostazioni di Visualizzazione"
 
-#: aioseop_class.php:783
+#: aioseop_class.php:777
 msgid "Webmaster Verification"
 msgstr "Verifica Webmaster"
 
-#: aioseop_class.php:788
+#: aioseop_class.php:782
 msgid "Google Settings"
 msgstr "Impostazioni Google"
 
@@ -2849,19 +2941,19 @@ msgstr "%category_title% - La categoria (principale) del post"
 msgid "%category% - Alias for %category_title%"
 msgstr "%category% - Alias per %category_title%"
 
-#: aioseop_class.php:118 aioseop_class.php:1221
+#: aioseop_class.php:118 aioseop_class.php:1156
 msgid "%post_author_login% - This post's author' login"
 msgstr "%post_author_login% - Il login dell'autore di questo post"
 
-#: aioseop_class.php:119 aioseop_class.php:1222
+#: aioseop_class.php:119 aioseop_class.php:1157
 msgid "%post_author_nicename% - This post's author' nicename"
 msgstr "%post_author_nicename% -  Il nicename dell'autore di questo post"
 
-#: aioseop_class.php:120 aioseop_class.php:1223
+#: aioseop_class.php:120 aioseop_class.php:1158
 msgid "%post_author_firstname% - This post's author' first name (capitalized)"
 msgstr "%post_author_firstname% -  Il nome dell'autore di quest o post (prima lettera maiuscola)"
 
-#: aioseop_class.php:121 aioseop_class.php:1224
+#: aioseop_class.php:121 aioseop_class.php:1159
 msgid "%post_author_lastname% - This post's author' last name (capitalized)"
 msgstr "%post_author_lastname% -  Il cognome dell'autore di questo post (prima lettera maiuscola)"
 
@@ -2928,8 +3020,8 @@ msgstr "Questo controlla il formato della title tag per pagina di Ricerca.<br />
 #: aioseop_class.php:94 aioseop_class.php:104 aioseop_class.php:114
 #: aioseop_class.php:126 aioseop_class.php:132 aioseop_class.php:137
 #: aioseop_class.php:145 aioseop_class.php:150 aioseop_class.php:155
-#: aioseop_class.php:159 aioseop_class.php:165 aioseop_class.php:1214
-#: aioseop_class.php:1257
+#: aioseop_class.php:159 aioseop_class.php:165 aioseop_class.php:1149
+#: aioseop_class.php:1192
 msgid "%blog_description% - Your blog description"
 msgstr "%blog_description% - Descrizione del tuo blog"
 
@@ -3032,8 +3124,8 @@ msgstr "Questa controlla il formato della title tag per la tua Home Page.<br />S
 #: aioseop_class.php:93 aioseop_class.php:103 aioseop_class.php:113
 #: aioseop_class.php:125 aioseop_class.php:131 aioseop_class.php:136
 #: aioseop_class.php:144 aioseop_class.php:149 aioseop_class.php:154
-#: aioseop_class.php:158 aioseop_class.php:164 aioseop_class.php:1213
-#: aioseop_class.php:1256
+#: aioseop_class.php:158 aioseop_class.php:164 aioseop_class.php:1148
+#: aioseop_class.php:1191
 msgid "%blog_title% - Your blog title"
 msgstr "%blog_title% - Titolo del tuo blog"
 
@@ -3129,6 +3221,6 @@ msgstr "Nessuna regola da aggiornare!"
 msgid "%s Plugin Options"
 msgstr "Opzioni Plugin %s"
 
-#: aioseop_class.php:62 aioseop_class.php:752 modules/aioseop_opengraph.php:267
+#: aioseop_class.php:62 aioseop_class.php:751 modules/aioseop_opengraph.php:267
 msgid "General Settings"
 msgstr "Impostazioni"
