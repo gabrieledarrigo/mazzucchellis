@@ -890,7 +890,7 @@ function wp_link_pages( $args = '' ) {
 			if ( $prev > 0 ) {
 				$link = _wp_link_page( $prev ) . $r['link_before'] . $r['previouspagelink'] . $r['link_after'] . '</a>';
 
-				/** This filter is documented in wp-includes/post-template.php */
+				/** This filter is documented in wp-includes/post-_template.php */
 				$output .= apply_filters( 'wp_link_pages_link', $link, $prev );
 			}
 			$next = $page + 1;
@@ -900,7 +900,7 @@ function wp_link_pages( $args = '' ) {
 				}
 				$link = _wp_link_page( $next ) . $r['link_before'] . $r['nextpagelink'] . $r['link_after'] . '</a>';
 
-				/** This filter is documented in wp-includes/post-template.php */
+				/** This filter is documented in wp-includes/post-_template.php */
 				$output .= apply_filters( 'wp_link_pages_link', $link, $next );
 			}
 			$output .= $r['after'];

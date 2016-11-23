@@ -4332,8 +4332,8 @@ msgid "The backup of this post in your browser is different from the version bel
 msgstr "Il backup di questo articolo nel tuo browser è diverso dalla revisione sottostante."
 
 #: wp-admin/includes/template.php:1999
-msgid "Likely direct inclusion of wp-admin/includes/template.php in order to use add_meta_box(). This is very wrong. Hook the add_meta_box() call into the add_meta_boxes action instead."
-msgstr "Probabile inclusione diretta di wp-admin/includes/template.php allo scopo di utilizzare la funzione add_meta_box(). Questo è molto sbagliato. Utilizzare la chiamata a add_meta_box() all'interno dell'action add_meta_boxes."
+msgid "Likely direct inclusion of wp-admin/includes/_template.php in order to use add_meta_box(). This is very wrong. Hook the add_meta_box() call into the add_meta_boxes action instead."
+msgstr "Probabile inclusione diretta di wp-admin/includes/_template.php allo scopo di utilizzare la funzione add_meta_box(). Questo è molto sbagliato. Utilizzare la chiamata a add_meta_box() all'interno dell'action add_meta_boxes."
 
 #: wp-admin/includes/template.php:1922 wp-admin/nav-menus.php:656
 #: wp-admin/options.php:294

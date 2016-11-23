@@ -1888,6 +1888,54 @@ div.poweredWrapper {
     margin-left: 25px
 }
 
+/* WEEKLY PRODUCTS
+================================================== */
+.weeky-offers-wrapper {
+}
+
+.weekly-product {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 1px 1px 15px #DDDDDD;
+    height: 275px;
+    overflow: hidden;
+    margin: 15px auto;
+    width: 90%;
+}
+
+.weekly-product-picture {
+    border-bottom: 1px solid #CCCCCC;
+    margin: 0;
+}
+
+.weekly-product-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 200px;
+    margin: 0;
+    width: 100%;
+}
+
+.weekly-product-image:hover,
+.weekly-product-image:focus,
+.weekly-product-image:visited {
+    outline: none;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .weeky-offers-wrapper {
+        display: flex;
+    }
+
+    .weekly-product {
+        height: 300px;
+        margin: 15px auto;
+        width: 30%;
+    }
+}
+
 /* #Page Styles
 ================================================== */
 

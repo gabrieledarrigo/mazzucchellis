@@ -3270,7 +3270,7 @@ function wp_trim_excerpt( $text = '' ) {
 
 		$text = strip_shortcodes( $text );
 
-		/** This filter is documented in wp-includes/post-template.php */
+		/** This filter is documented in wp-includes/post-_template.php */
 		$text = apply_filters( 'the_content', $text );
 		$text = str_replace(']]>', ']]&gt;', $text);
 

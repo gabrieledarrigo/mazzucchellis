@@ -561,7 +561,7 @@ case 'retrievepassword' :
 if ( get_option( 'users_can_register' ) ) :
 	$registration_url = sprintf( '<a href="%s">%s</a>', esc_url( wp_registration_url() ), __( 'Register' ) );
 
-	/** This filter is documented in wp-includes/general-template.php */
+	/** This filter is documented in wp-includes/general-_template.php */
 	echo ' | ' . apply_filters( 'register', $registration_url );
 endif;
 ?>
@@ -674,7 +674,7 @@ case 'rp' :
 if ( get_option( 'users_can_register' ) ) :
 	$registration_url = sprintf( '<a href="%s">%s</a>', esc_url( wp_registration_url() ), __( 'Register' ) );
 
-	/** This filter is documented in wp-includes/general-template.php */
+	/** This filter is documented in wp-includes/general-_template.php */
 	echo ' | ' . apply_filters( 'register', $registration_url );
 endif;
 ?>
@@ -939,7 +939,7 @@ default:
 	if ( get_option( 'users_can_register' ) ) :
 		$registration_url = sprintf( '<a href="%s">%s</a>', esc_url( wp_registration_url() ), __( 'Register' ) );
 
-		/** This filter is documented in wp-includes/general-template.php */
+		/** This filter is documented in wp-includes/general-_template.php */
 		echo apply_filters( 'register', $registration_url ) . ' | ';
 	endif;
 	?>

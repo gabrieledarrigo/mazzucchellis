@@ -43,7 +43,7 @@ function check_comment($author, $email, $url, $comment, $user_ip, $user_agent, $
 	if ( 1 == get_option('comment_moderation') )
 		return false;
 
-	/** This filter is documented in wp-includes/comment-template.php */
+	/** This filter is documented in wp-includes/comment-_template.php */
 	$comment = apply_filters( 'comment_text', $comment );
 
 	// Check for the number of external links if a max allowed number is set.
@@ -2309,17 +2309,17 @@ function do_trackbacks($post_id) {
 	}
 
 	if ( empty($post->post_excerpt) ) {
-		/** This filter is documented in wp-includes/post-template.php */
+		/** This filter is documented in wp-includes/post-_template.php */
 		$excerpt = apply_filters( 'the_content', $post->post_content, $post->ID );
 	} else {
-		/** This filter is documented in wp-includes/post-template.php */
+		/** This filter is documented in wp-includes/post-_template.php */
 		$excerpt = apply_filters( 'the_excerpt', $post->post_excerpt );
 	}
 
 	$excerpt = str_replace(']]>', ']]&gt;', $excerpt);
 	$excerpt = wp_html_excerpt($excerpt, 252, '&#8230;');
 
-	/** This filter is documented in wp-includes/post-template.php */
+	/** This filter is documented in wp-includes/post-_template.php */
 	$post_title = apply_filters( 'the_title', $post->post_title, $post->ID );
 	$post_title = strip_tags($post_title);
 

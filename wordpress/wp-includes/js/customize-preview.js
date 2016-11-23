@@ -201,7 +201,7 @@
 				// The body will support custom backgrounds if either
 				// the color or image are set.
 				//
-				// See get_body_class() in /wp-includes/post-template.php
+				// See get_body_class() in /wp-includes/post-_template.php
 				body.toggleClass( 'custom-background', !! ( color() || image() ) );
 
 				if ( color() )
