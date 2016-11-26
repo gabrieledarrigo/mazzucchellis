@@ -1,17 +1,17 @@
 <?php get_header(); ?>
     <hr class="black-divider"/>
 
-<!--
     <section class="weeky-offers container">
         <header>
-            <h2>Offerte della settimana</h2>
+            <h2 class="discount-icon">
+                Offerte della settimana
+            </h2>
         </header>
 
         <div class="weeky-offers-wrapper">
             <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-weekly-offers')) : endif; ?>
         </div>
     </section>
--->
 
     <section id="in-evidenza" class="container">
         <header class="sixteen columns clearfix">

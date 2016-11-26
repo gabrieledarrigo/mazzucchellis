@@ -170,7 +170,7 @@ class CPAC_Column {
 			'label'            => null,    // Label which describes this column.
 			'classes'          => null,    // Custom CSS classes for this column.
 			'hide_label'       => false,   // Should the Label be hidden?
-			'is_registered'    => true,    // Should the column be registered based on conditional logic, example usage see: 'post/page-_template.php'
+			'is_registered'    => true,    // Should the column be registered based on conditional logic, example usage see: 'post/page-template.php'
 			'is_cloneable'     => true,    // Should the column be cloneable
 			'default'          => false,   // Is this a WP default column, used for displaying values
 			'original'         => false,   // When a default column has been replaced by custom column we mark it as 'original'

@@ -229,6 +229,11 @@ header h2 {
     margin: 40px 0 30px;
 }
 
+header h2.discount-icon {
+    padding: 10px 0 0 50px;
+    background: url('img/icon/discount-icon.png') transparent no-repeat left center;
+}
+
 header h2.in-evidenza-icon {
     padding: 10px 0 0 50px;
     background: url('img/icon/lens.png') transparent no-repeat left center;
@@ -1890,17 +1895,22 @@ div.poweredWrapper {
 
 /* WEEKLY PRODUCTS
 ================================================== */
-.weeky-offers-wrapper {
-}
+.weeky-offers-wrapper {  }
 
 .weekly-product {
     background-color: #FFFFFF;
     border: 1px solid #CCCCCC;
     box-shadow: 1px 1px 15px #DDDDDD;
-    height: 275px;
-    overflow: hidden;
+    min-height: 295px;
     margin: 15px auto;
+    overflow: hidden;
+    position: relative;
     width: 90%;
+}
+
+.weekly-product-content {
+    line-height: 1.5em;
+    margin: 1em 1em 0.5em;
 }
 
 .weekly-product-picture {
@@ -1924,15 +1934,47 @@ div.poweredWrapper {
     text-decoration: none;
 }
 
+.weekly-product-link {
+    margin-bottom: 0.5em;
+}
+
+.weekly-product-footer {
+    background: transparent;
+    margin: 0;
+    overflow: hidden;
+}
+
+a.weekly-product-buy {
+    background: url('img/icon/prodotti-icon-white.png') #3399CC no-repeat 90%;
+    border-radius: 4px;
+    bottom: 10px;
+    display: block;
+    color: #FFFFFF;
+    float: right;
+    font: 16px/35px 'neotechbold';
+    height: 35px;
+    margin: 0;
+    padding: 0 10px;
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    transition: none;
+    width: 100px;
+}
+
 @media only screen and (min-width: 768px) {
     .weeky-offers-wrapper {
         display: flex;
     }
 
     .weekly-product {
-        height: 300px;
+        min-height: 305px;
         margin: 15px auto;
         width: 30%;
+    }
+
+    .weekly-product-link {
+        margin-bottom: auto;
     }
 }
 
