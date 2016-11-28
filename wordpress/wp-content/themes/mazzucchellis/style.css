@@ -1920,7 +1920,7 @@ div.poweredWrapper {
 
 .weekly-product-image {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     display: block;
     height: 200px;
     margin: 0;
