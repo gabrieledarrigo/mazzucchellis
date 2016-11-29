@@ -1893,6 +1893,41 @@ div.poweredWrapper {
     margin-left: 25px
 }
 
+/* FEATURED BANNERS
+================================================== */
+.featured-banners {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.featured-banners-image {
+    height: 40px;
+    width: 320px;
+}
+
+@media only screen and (min-width: 768px) {
+    .featured-banners {
+        width: 768px;
+    }
+
+    .featured-banners-image {
+        height: 60px;
+        width: 468px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .featured-banners {
+        flex-direction: row;
+        width: 960px;
+    }
+}
+
+
 /* WEEKLY PRODUCTS
 ================================================== */
 .weeky-offers-wrapper {  }
@@ -1919,7 +1954,7 @@ div.poweredWrapper {
 }
 
 .weekly-product-image {
-    background-repeat: no-repeat;
+    background: no-repeat center;
     background-size: contain;
     display: block;
     height: 200px;

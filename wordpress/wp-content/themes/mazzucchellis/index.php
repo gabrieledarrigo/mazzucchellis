@@ -1,6 +1,10 @@
 <?php get_header(); ?>
     <hr class="black-divider"/>
 
+    <section class="featured-banners container">
+        <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-featured-banners')) : endif; ?>
+    </section>
+
     <section class="weeky-offers container">
         <header>
             <h2 class="discount-icon">
